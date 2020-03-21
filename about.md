@@ -13,4 +13,4 @@ Some information about you!
 
 ### Contact me
 
-[khangduong567@domain.com](mailto:khangduong567@domain.com)
+[khangduong567@gmail.com](mailto:khangduong567@gmail.com)
