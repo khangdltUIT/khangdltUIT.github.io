@@ -1,4 +1,4 @@
-T---
+---
 layout: Introduction
 title: The First Blog
 ---
