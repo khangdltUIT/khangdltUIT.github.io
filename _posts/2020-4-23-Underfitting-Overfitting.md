@@ -11,4 +11,4 @@ Câu trả lời sẽ là **Không**. Thực tế 1 model quá fit với dữ li
 
 ![alt](https://res.cloudinary.com/dominhhai/image/upload/ml/sin2pi.png)
  
- Theo đa thức nội suy Lagrange. Với N cặp điểm dữ liệu (x_{1}, y_{1})
+ Theo đa thức nội suy Lagrange. Với N cặp điểm dữ liệu \(x_{1}, y_{1})
