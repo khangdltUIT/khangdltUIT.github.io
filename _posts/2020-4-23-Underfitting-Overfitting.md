@@ -17,8 +17,10 @@ với các cặp xi khác nhau đôi một luôn tìm được một đa thức 
 ![alt](https://res.cloudinary.com/dominhhai/image/upload/ml/sin2pi.png)
 
 1) Underfitting
- 2) Fit
- 3) Overfitting
+
+2) Fit
+
+3) Overfitting
  
 Với loại dữ liệu này ta có thể áp dụng polynomial regression với feature vector là 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;X&space;=&space;[1,&space;x,&space;x^{2},&space;x^{3},&space;...,&space;x^{d}]^{T}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;X&space;=&space;[1,&space;x,&space;x^{2},&space;x^{3},&space;...,&space;x^{d}]^{T}" title="X = [1, x, x^{2}, x^{3}, ..., x^{d}]^{T}" /></a>
