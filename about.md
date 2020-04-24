@@ -9,7 +9,6 @@ Some information about you!
 ### More Information
 
 * University of Information Technology ( 2018- )
-* Truong Dinh High School
 
 ### Contact me
 
