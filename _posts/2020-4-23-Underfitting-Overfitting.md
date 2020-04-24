@@ -2,7 +2,7 @@
 layout: Machine Learning
 tittle: Underfitting and Overfitting
 --- 
-#             &nbsp;                       Overfitting in Machine Learning
+# &ensp; Overfitting in Machine Learning
 ## Tổng quan
 Overfitting là hiện tượng không mong muốn thường gặp trong quá trình xử lý model.
 ### Giới thiệu
