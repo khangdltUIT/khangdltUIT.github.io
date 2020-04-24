@@ -17,18 +17,18 @@ với các cặp xi khác nhau đôi một luôn tìm được một đa thức 
 ![alt](https://res.cloudinary.com/dominhhai/image/upload/ml/sin2pi.png)
 
 1) Underfitting
-2) Fit
-3) Overfitting
+ 2) Fit
+ 3) Overfitting
  
 Với loại dữ liệu này ta có thể áp dụng polynomial regression với feature vector là 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;X&space;=&space;[1,&space;x,&space;x^{2},&space;x^{3},&space;...,&space;x^{d}]^{T}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;X&space;=&space;[1,&space;x,&space;x^{2},&space;x^{3},&space;...,&space;x^{d}]^{T}" title="X = [1, x, x^{2}, x^{3}, ..., x^{d}]^{T}" /></a>
 
 Với một đa thức bật không vượt quá (N-1) có thể fit được hoàn toàn với N điểm trong tập training set. Xét các giá trị như trong hình trên với d = 1, 3, 15.
 
-Với d=1, model không thực sự tốt vì predicted model quá khác so với true model, thậm chí nó có xu hướng đi xuống trong khi dữ liệu có xu hướng đi lên --> ***underfitting***
+* Với d=1, model không thực sự tốt vì predicted model quá khác so với true model, thậm chí nó có xu hướng đi xuống trong khi dữ liệu có xu hướng đi lên --> ***underfitting***
 
-Với d=15, model quá fit với training set. Việc quá fit trong trường hợp 16 là không tốt vì mô hình đang cố gắng mô tả nhiễu --> ***overfitting***
+* Với d=15, model quá fit với training set. Việc quá fit trong trường hợp 16 là không tốt vì mô hình đang cố gắng mô tả nhiễu --> ***overfitting***
 
-Với d=4, mô hình dự đoán khá giống với mô hình thực.
+* Với d=4, mô hình dự đoán khá giống với mô hình thực.
 
 Overfitting sẽ làm cho model chỉ chú trọng vào training set mà quên đi tính generalization --> mô hình không thực sự mô tả tốt dữ liệu ngoài training set.
