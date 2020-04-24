@@ -39,3 +39,26 @@ Overfitting sẽ làm cho model chỉ chú trọng vào training set mà quên �
  &ensp;Đây là hình ảnh minh họa việc overfitting ảnh hướng đến kết quả bài toán
  
  ![alt](https://i.imgur.com/2q85n9s.png)
+
+## &ensp;&ensp;&ensp;&ensp;  KỸ THUẬT GIẢI QUYẾT
+### Đánh giá
+Ta cần một vài đại lượng để kiểm tra chất lượng của model trên trainning set và test set. 
+
+y: đầu ra thực sự(có thể là vector)
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\hat{y}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\hat{y}" title="\hat{y}" /></a>
+:đầu ra dự đoán bởi mô hình
+
+
+* **Trainning error**: Đại lượng này là mức độ sai khác giữa y(đầu ra thực sự) và <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\hat{y}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\hat{y}" title="\hat{y}" /></a> (đầu ra dự đoán) thường là giá trị của loss function áp dụng lên model.
+    * Bài toán regression, đại lượng này xác định bởi **mean squared error(MSE)**
+    * Bài toán classification, trung bình cộng của **cross entropy loss**(với softmax regression) hoặc **hinge loss** (với multi class SVM)
+* **Test error**: tương tự với tranning error nhưng được áp dụng vào test set
+
+Một mô hình được xem là fit nếu cả *test error* và *tranning error* đều **thấp**. 
+* Nếu test error cao và tranning error thấp -> overfitting.
+* Nếu test error cao và tranning error cao -> underfitting.
+* Trường hợp test error thấp trong khi tranning error cao có xác suất xảy ra rất thấp.
+
+Có 2 kỹ thuật giúp giải quyết vấn đề này là 
+1. Validation
+2. Regularization
