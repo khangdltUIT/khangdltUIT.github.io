@@ -35,3 +35,7 @@ Với một đa thức bật không vượt quá (N-1) có thể fit được ho
 * Với d=4, mô hình dự đoán khá giống với mô hình thực.
 
 Overfitting sẽ làm cho model chỉ chú trọng vào training set mà quên đi tính generalization --> mô hình không thực sự mô tả tốt dữ liệu ngoài training set.
+
+ &ensp;Đây là hình ảnh minh họa việc overfitting ảnh hướng đến kết quả bài toán
+ 
+ ![alt](https://i.imgur.com/2q85n9s.png)
