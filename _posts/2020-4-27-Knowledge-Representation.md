@@ -126,9 +126,11 @@ B1: Phát biểu lại giả thiết và kết luận của vấn đề theo d�
 GT₁, GT₂,..., GTₙ → KL₁,KL₂,...,KLₘ
 
 B2: Chuyển vế các GTᵢ và KLᵢ có dạng phủ định
+
 B3:
     * Nếu ở GTᵢ có phép ∧ thì thay phép ∧ bằng dấu **,**
     * Nếu ở KLᵢ có phép ∨ thì thay phép ∨ bằng dấu **,**
+    
 ***Lưu ý***:
 
 Không áp dụng với những trường hợp như sau:
@@ -138,7 +140,9 @@ Không áp dụng với những trường hợp như sau:
 B4: 
     * Nếu ở GTᵢ có phép ∨ thì tách thành 2 dòng con
     * Nếu ở KLᵢ có phép ∨ thì tách thành 2 dòng con
-B5: Một mệnh đề được chứng minh nếu tồn tại chung 1 mệnh đề ở 2 phía. 
+    
+B5: Một mệnh đề được chứng minh nếu tồn tại chung 1 mệnh đề ở 2 phía.
+
 B6:
     * Nếu 1 dòng không còn phép nối hoặc ở cả 2 vế và ở 2 vế không có chung 1 biến mệnh đề thì dòng đó không đc c/m
     * Một vấn đề được chứng minh nếu tất cả dòng dẫn xuất từ dạng chuẩn ban đầu đều được c/m.
