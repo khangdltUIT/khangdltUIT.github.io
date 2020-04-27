@@ -121,13 +121,15 @@ Bảng chân trị:
 
 ## &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; THUẬT TOÁN VƯƠNG HẠO
 
-B1: Phát biểu lại giả thiết và kết luận của vấn đề theo dạng chuẩn sau:
+*Các bước thực hiện thuật toán VƯƠNG HẠO*
+
+1. **B1:** Phát biểu lại giả thiết và kết luận của vấn đề theo dạng chuẩn sau:
 
 GT₁, GT₂,..., GTₙ → KL₁,KL₂,...,KLₘ
 
-B2: Chuyển vế các GTᵢ và KLᵢ có dạng phủ định
+2. **B2:** Chuyển vế các GTᵢ và KLᵢ có dạng phủ định
 
-B3:
+3. **B3:**
     * Nếu ở GTᵢ có phép ∧ thì thay phép ∧ bằng dấu **,**
     * Nếu ở KLᵢ có phép ∨ thì thay phép ∨ bằng dấu **,**
     
@@ -137,13 +139,13 @@ Không áp dụng với những trường hợp như sau:
 
 **R ∨ (P ∧ Q) → P**
 
-B4: 
+4. **B4: **
     * Nếu ở GTᵢ có phép ∨ thì tách thành 2 dòng con
     * Nếu ở KLᵢ có phép ∨ thì tách thành 2 dòng con
     
-B5: Một mệnh đề được chứng minh nếu tồn tại chung 1 mệnh đề ở 2 phía.
+5. **B5:** Một mệnh đề được chứng minh nếu tồn tại chung 1 mệnh đề ở 2 phía.
 
-B6:
+6. **B6:**
     * Nếu 1 dòng không còn phép nối hoặc ở cả 2 vế và ở 2 vế không có chung 1 biến mệnh đề thì dòng đó không đc c/m
     * Một vấn đề được chứng minh nếu tất cả dòng dẫn xuất từ dạng chuẩn ban đầu đều được c/m.
     
