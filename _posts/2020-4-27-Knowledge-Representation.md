@@ -139,7 +139,7 @@ Không áp dụng với những trường hợp như sau:
 
 **R ∨ (P ∧ Q) → P**
 
-4. **B4: **
+4. **B4:**
     * Nếu ở GTᵢ có phép ∨ thì tách thành 2 dòng con
     * Nếu ở KLᵢ có phép ∨ thì tách thành 2 dòng con
     
