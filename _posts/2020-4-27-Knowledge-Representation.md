@@ -21,6 +21,7 @@ VD: (P₁ ∨...∨ Pₙ)₁ ∧ ... ∧ (Q₁ ∨...∨ Qₘ)ₚ, với n,m ≥
 1. **Phép phủ định**: phủ định của mệnh đề P là một mệnh đề, ký hiệu là ¬P.(**1 ngôi**)
 
 Bảng chân trị:
+
 | P    | ¬P    |
 | -----|:-----:|
 | 0    | 1     |
@@ -29,6 +30,7 @@ Bảng chân trị:
 2. **Phép hội**: của hai mệnh P, Q là 1 mệnh đề, kí hiệu là P∧Q (P và Q).(**2 ngôi**)
 
 Bảng chân trị
+
 | P    | Q     | P ∧ Q |
 | -----|:-----:|------:|
 | 0    | 0     | 0     |
@@ -41,6 +43,7 @@ Bảng chân trị
 3.**Phép tuyển**: của 2 mệnh đề P,Q là 1 mệnh đề, kí hiệu là P∨Q(P hay Q).(**2 ngôi**)
 
 Bảng chân trị
+
 | P    | Q     | P ∨ Q |
 | -----|:-----:|------:|
 | 0    | 0     | 0     |
@@ -53,6 +56,7 @@ Bảng chân trị
 4. **Phép kéo theo**: Mệnh đề P kéo theo mệnh đề Q là 1 mệnh đề, kí hiệu P → Q(**2 ngôi**)
 
 Bảng chân trị:
+
 | P    | Q     | P → Q |
 | -----|:-----:|------:|
 | 0    | 0     | 1     |
@@ -65,6 +69,7 @@ Bảng chân trị:
 5. **Phép kéo theo 2 chiều**: kí hiệu P ↔ Q.
 
 Bảng chân trị:
+
 | P    | Q     | P ↔ Q |
 | -----|:-----:|------:|
 | 0    | 0     | 1     |
