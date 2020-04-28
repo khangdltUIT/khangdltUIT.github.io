@@ -9,10 +9,10 @@ permalink: /about/
 * University of Information Technology ( 2018- )
 
 ### [Categories](https://kangdoung.github.io/cats/):
-
 1. Machine Learning 
 2. Artificical Intelligence
-3. Chill with me
+
+### [List 100 things to do](https://kangdoung.github.io/about/list/)
 
 ### Contact me
 
