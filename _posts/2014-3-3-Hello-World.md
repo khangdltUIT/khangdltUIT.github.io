@@ -1,5 +1,5 @@
 ---
-layout: Introduction
+layout: page
 categories: relax
 title: The First Blog
 ---
