@@ -1,5 +1,5 @@
 ---
-layout: Artificial Intelligence
+layout: blog
 categories: Artificial 
 tittle: Knowledge Representation
 --- 
