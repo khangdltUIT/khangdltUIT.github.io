@@ -1,5 +1,6 @@
 ---
 layout: Artificial Intelligence
+categories: Artificial Intelligence
 tittle: Knowledge Representation
 --- 
 
