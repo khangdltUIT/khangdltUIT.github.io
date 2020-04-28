@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: post
 categories: Artificial 
 tittle: Knowledge Representation
 --- 
