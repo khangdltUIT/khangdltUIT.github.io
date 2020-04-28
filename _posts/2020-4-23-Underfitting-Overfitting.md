@@ -1,5 +1,5 @@
 ---
-layout: Machine Learning
+layout: post
 categories: Machine
 tittle: Underfitting and Overfitting
 --- 
