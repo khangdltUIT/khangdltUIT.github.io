@@ -1,6 +1,6 @@
 ---
 layout: Machine Learning
-categories: Machine Learning
+categories: Machine
 tittle: Underfitting and Overfitting
 --- 
 # &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Overfitting in Machine Learning
