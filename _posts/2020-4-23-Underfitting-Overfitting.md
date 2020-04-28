@@ -1,7 +1,7 @@
 ---
 layout: Blogger
 categories: Machine
-tittle: Underfitting and Overfitting
+tittle: Overfitting
 --- 
 # &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Overfitting in Machine Learning
 ## &ensp;&ensp;&ensp;&ensp; Tổng quan
