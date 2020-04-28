@@ -1,7 +1,7 @@
 ---
 layout: page
-title: List 100
-permalink: /about/
+title: List 
+permalink: /list/
 ---
 
 100 things
