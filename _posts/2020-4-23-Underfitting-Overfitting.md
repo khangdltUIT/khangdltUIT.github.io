@@ -1,5 +1,5 @@
 ---
-layout: Blog
+layout: blog
 categories: Machine
 tittle: Overfitting
 --- 
