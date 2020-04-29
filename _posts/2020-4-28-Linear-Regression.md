@@ -26,16 +26,27 @@ Trong đó:
 * (x;y) → 1 training example
 * (xᶦ;yᶦ) → i training example
 
-Cách 1 thuật toán supervised learning làm việc tương tự như sau:
+Giả sử rằng size in feet²(x) và price(y) phụ thuộc tuyến tính vào nhau, bạn có thể hiểu đơn giản là khi giá trị x tăng thì giá trị y tăng và ngược lại. *Vậy vấn đề tiếp theo của chúng ta là gì?*
 
-![alt](https://anujdutt9.github.io/assets/images/posts/2018/SL.png)
+Đó chính là ta tìm ra một hàm h sao cho với size in feet² sẽ tìm được price.
 
-Hypothesis (kí hiệu là **h**) là 1 hàm để biến đổi từ input x ra output y(đối với dữ liệu trên là hàm h sẽ có chức năng dự đoán giá nhà dựa trên size of feet²).
+Hàm cần tìm sẽ có dạng Y = aX + b. Bài toán lúc này sẽ quy về bài toán với các cặp điểm (xᶦ;yᶦ), tìm **2 parameter(tham số) a và b**( bài toán quá quen thuộc thời phổ thông của chúng ta).
 
-*Vậy ta biểu diễn h như thế nào?*
+Tất cả các giai đoạn trên của ta là tìm hàm hypothesis để từ giá trị input(size in feet²) ta sẽ có output(price).
+![alt](https://camo.githubusercontent.com/7cf14a413358a6a4ee293ea0443d5420ca6a8cbb/68747470733a2f2f616e756a64757474392e6769746875622e696f2f6173736574732f696d616765732f706f7374732f323031382f534c2e706e67)
 
-Đối với univariate linear regression:
+Đối với bài toán trên được gọi là linear regression with one variable (univariate linear regression).
+*   **Định nghĩa**:
+    Trong thống kê, linear regression là 1 phương pháp mô hình hóa giữa 1 đại lượng vô hướng với 1 hay nhiều biến độc lập
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;h_\theta&space;(x)&space;=&space;\theta_0&space;&plus;&space;\theta_1x_1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;h_\theta&space;(x)&space;=&space;\theta_0&space;&plus;&space;\theta_1x_1" title="h_\theta (x) = \theta_0 + \theta_1x_1" /></a>
+    Các dạng mô hình hồi quy tuyến tính:
 
-![alt](https://raw.githubusercontent.com/kangdoung/kangdoung.github.io/master/images/lineardemo_data.png)
+    <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;h_\theta&space;(x)&space;=&space;\theta_1x_1&space;&plus;&space;\theta_2x_2&space;&plus;&space;\theta_3&space;=&space;\begin{bmatrix}\theta_1&space;\&space;\theta_2&space;\&space;\theta_3&space;\end{bmatrix}&space;\begin{bmatrix}&space;x_1\\&space;x_2\\&space;1&space;\end{bmatrix}&space;=&space;\theta^TX" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;h_\theta&space;(x)&space;=&space;\theta_1x_1&space;&plus;&space;\theta_2x_2&space;&plus;&space;\theta_3&space;=&space;\begin{bmatrix}\theta_1&space;\&space;\theta_2&space;\&space;\theta_3&space;\end{bmatrix}&space;\begin{bmatrix}&space;x_1\\&space;x_2\\&space;1&space;\end{bmatrix}&space;=&space;\theta^TX" title="h_\theta (x) = \theta_1x_1 + \theta_2x_2 + \theta_3 = \begin{bmatrix}\theta_1 \ \theta_2 \ \theta_3 \end{bmatrix} \begin{bmatrix} x_1\\ x_2\\ 1 \end{bmatrix} = \theta^TX" /></a>
+
+    <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;h_\theta&space;(x)&space;=&space;\theta_1x_1&space;&plus;&space;\theta_2x_2&space;&plus;&space;\theta_3x_1x_2&space;&plus;&space;\theta_4x_1^2&space;=&space;\begin{bmatrix}\theta_1&space;\&space;\theta_2&space;\&space;\theta_3&space;\&space;\theta_4&space;\end{bmatrix}&space;\begin{bmatrix}&space;x_1\\&space;x_2&space;\\x_1x_2&space;\\x_1^2&space;\end{bmatrix}&space;=&space;\theta^TX" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;h_\theta&space;(x)&space;=&space;\theta_1x_1&space;&plus;&space;\theta_2x_2&space;&plus;&space;\theta_3x_1x_2&space;&plus;&space;\theta_4x_1^2&space;=&space;\begin{bmatrix}\theta_1&space;\&space;\theta_2&space;\&space;\theta_3&space;\&space;\theta_4&space;\end{bmatrix}&space;\begin{bmatrix}&space;x_1\\&space;x_2&space;\\x_1x_2&space;\\x_1^2&space;\end{bmatrix}&space;=&space;\theta^TX" title="h_\theta (x) = \theta_1x_1 + \theta_2x_2 + \theta_3x_1x_2 + \theta_4x_1^2 = \begin{bmatrix}\theta_1 \ \theta_2 \ \theta_3 \ \theta_4 \end{bmatrix} \begin{bmatrix} x_1\\ x_2 \\x_1x_2 \\x_1^2 \end{bmatrix} = \theta^TX" /></a>
+
+    Công thức tổng quát:
+
+    <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;h_\theta(x)&space;=&space;\sum\limits_{i=0}^n&space;\theta_ix_i&space;=&space;\theta^Tx" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;h_\theta(x)&space;=&space;\sum\limits_{i=0}^n&space;\theta_ix_i&space;=&space;\theta^Tx" title="h_\theta(x) = \sum\limits_{i=0}^n \theta_ix_i = \theta^Tx" /></a>
+
+    
