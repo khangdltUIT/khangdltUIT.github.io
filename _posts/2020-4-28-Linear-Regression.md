@@ -64,7 +64,6 @@ Khi biểu diễn các điểm dữ liệu và hàm h(x) ta được model như 
 ![alt](https://raw.githubusercontent.com/kangdoung/kangdoung.github.io/master/images/demo_gr.png)
 
 Ta nhận thấy rằng các đường thẳng h(x) không hoàn toàn đi qua các điểm dữ liệu. Mục đích của hàm mất mát chính là chọn tham số θᵢ sao cho khoảng cách từ các điểm dữ liệu đến h(x) là nhỏ nhất.
-
     * **Công thức Cost Function**:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;J(\theta)&space;=&space;\frac{1}{2m}&space;\left&space;\|&space;X\theta&space;-&space;y&space;\right&space;\|^2&space;=&space;\frac{1}{2m}&space;\sum\limits_{i=1}^m(h_{\theta}(x^{(i)})&space;-&space;y^{(i)})^2&space;=&space;\frac{1}{2m}&space;\sum\limits_{i=1}^m(\theta^Tx^{(i)}&space;-&space;y^{(i)})^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;J(\theta)&space;=&space;\frac{1}{2m}&space;\left&space;\|&space;X\theta&space;-&space;y&space;\right&space;\|^2&space;=&space;\frac{1}{2m}&space;\sum\limits_{i=1}^m(h_{\theta}(x^{(i)})&space;-&space;y^{(i)})^2&space;=&space;\frac{1}{2m}&space;\sum\limits_{i=1}^m(\theta^Tx^{(i)}&space;-&space;y^{(i)})^2" title="J(\theta) = \frac{1}{2m} \left \| X\theta - y \right \|^2 = \frac{1}{2m} \sum\limits_{i=1}^m(h_{\theta}(x^{(i)}) - y^{(i)})^2 = \frac{1}{2m} \sum\limits_{i=1}^m(\theta^Tx^{(i)} - y^{(i)})^2" /></a>
