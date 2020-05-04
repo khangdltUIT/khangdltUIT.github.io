@@ -120,7 +120,7 @@ Bảng chân trị:
 
 ### Các qui tắc suy diễn
 
-## &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; THUẬT TOÁN VƯƠNG HẠO
+## THUẬT TOÁN VƯƠNG HẠO
 
 *Các bước thực hiện thuật toán VƯƠNG HẠO*
 
@@ -142,7 +142,7 @@ Không áp dụng với những trường hợp như sau:
 
 4. **B4:**
     * Nếu ở GTᵢ có phép ∨ thì tách thành 2 dòng con
-    * Nếu ở KLᵢ có phép ∨ thì tách thành 2 dòng con
+    * Nếu ở KLᵢ có phép ∧ thì tách thành 2 dòng con
     
 5. **B5:** Một mệnh đề được chứng minh nếu tồn tại chung 1 mệnh đề ở 2 phía.
 
@@ -150,3 +150,43 @@ Không áp dụng với những trường hợp như sau:
     * Nếu 1 dòng không còn phép nối hoặc ở cả 2 vế và ở 2 vế không có chung 1 biến mệnh đề thì dòng đó không đc c/m
     * Một vấn đề được chứng minh nếu tất cả dòng dẫn xuất từ dạng chuẩn ban đầu đều được c/m.
     
+## THUẬT TOÁN ROBINSON
+
+* **Ý tưởng**: dựa trên phương pháp chứng minh phản chứng.
+
+* **Các bước thực hiện**:
+    * *B1:* 
+        *   Phát biểu lại giả thiết dưới dạng chuẩn sau:
+    
+        GT₁, GT₂,..., GTₙ → KL₁,KL₂,...,KLₘ
+
+        *   Trong đó: GTᵢ và KLᵢ được xây dựng từ các biến mệnh đề và các phép toán: ∨, ∧, ¬.
+
+    * *B2:* 
+        * Nếu ở GTᵢ có phép ∧ thì thay phép ∧ bằng dấu **,**
+        * Nếu ở KLᵢ có phép ∨ thì thay phép ∨ bằng dấu **,**
+    * *B3*: 
+        *   Biến đổi dòng chuẩn ở B1 về thành danh sách mệnh đề như sau:
+
+        [GT₁, GT₂,..., GTₙ,¬KL₁,¬KL₂,...,¬KLₘ]
+    * *B4*:
+    &ensp;Nếu trong danh sách mệnh đề tạo được ở b3, có **2 mệnh đề đối ngãu nhau** thì bài toán được chứng minh. Ngược lại chuyển sang b5. (a và ¬a được gọi là 2 mệnh đề đối ngẫu).
+    * *B5*:
+    &ensp;Xây dựng một mệnh đề mới bằng cách tuyển một cặp mệnh đề trong danh sách mệnh đề ở B3. Nếu mệnh đề mới có các biến mệnh đề đối ngãu nhau thì các biến đó được loại bỏ.
+    
+    &ensp;VD:
+
+    p ∨ ¬q ∨ ¬r ∨ s ∨ q
+
+    Do 2 mệnh đề q và ¬q đối ngẫu nên được loại bỏ.
+
+    => p ∨ ¬r ∨ s
+    
+    * *B6*:
+
+    &ensp;Thay thế 2 mệnh đề vừa tuyển trong danh sách thành mệnh đề đã được xử lý.
+
+    * *B7*: Nếu không xây dựng được thêm 1 mệnh đề mới nào và trong danh sách mệnh đề không có 2 * mệnh đề đối ngẫu* thì vấn đề không được chứng minh.
+
+
+
