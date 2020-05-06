@@ -71,3 +71,27 @@ Ta nhận thấy rằng các đường thẳng h(x) không hoàn toàn đi qua c
    * Công thức
     
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;J(\theta)&space;=&space;\frac{1}{2m}&space;\left&space;\|&space;X\theta&space;-&space;y&space;\right&space;\|^2&space;=&space;\frac{1}{2m}&space;\sum\limits_{i=1}^m(h_{\theta}(x^{(i)})&space;-&space;y^{(i)})^2&space;=&space;\frac{1}{2m}&space;\sum\limits_{i=1}^m(\theta^Tx^{(i)}&space;-&space;y^{(i)})^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;J(\theta)&space;=&space;\frac{1}{2m}&space;\left&space;\|&space;X\theta&space;-&space;y&space;\right&space;\|^2&space;=&space;\frac{1}{2m}&space;\sum\limits_{i=1}^m(h_{\theta}(x^{(i)})&space;-&space;y^{(i)})^2&space;=&space;\frac{1}{2m}&space;\sum\limits_{i=1}^m(\theta^Tx^{(i)}&space;-&space;y^{(i)})^2" title="J(\theta) = \frac{1}{2m} \left \| X\theta - y \right \|^2 = \frac{1}{2m} \sum\limits_{i=1}^m(h_{\theta}(x^{(i)}) - y^{(i)})^2 = \frac{1}{2m} \sum\limits_{i=1}^m(\theta^Tx^{(i)} - y^{(i)})^2" /></a>
+
+    *   Tìm nghiệm θ₀ của bài toán:
+
+    Tôi biến đổi công thức J(θ) như sau(các bạn có thể tìm hiểu thêm kiến thức về toán thông qua sách Machine Learning cơ bản_Vũ Hữu Tiệp):
+
+    <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;J(\theta)=\frac{1}{2m}\left&space;\|&space;X\theta-y&space;\right&space;\|^2=\frac{1}{2m}(X\theta-y)^T(X\theta-y)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\large&space;J(\theta)=\frac{1}{2m}\left&space;\|&space;X\theta-y&space;\right&space;\|^2=\frac{1}{2m}(X\theta-y)^T(X\theta-y)" title="\large J(\theta)=\frac{1}{2m}\left \| X\theta-y \right \|^2=\frac{1}{2m}(X\theta-y)^T(X\theta-y)" /></a>
+
+    Đạo hàm:
+    
+    <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\frac{\partial&space;J}{\partial&space;\theta}=2X^TX\theta-2X^{T}y=0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\large&space;\frac{\partial&space;J}{\partial&space;\theta}=2X^TX\theta-2X^{T}y=0" title="\large \frac{\partial J}{\partial \theta}=2X^TX\theta-2X^{T}y=0" /></a>
+
+    Tương đương ta có: 
+
+    <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;X^TX\theta=X^{T}y" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\large&space;X^TX\theta=X^{T}y" title="\large X^TX\theta=X^{T}y" /></a>
+
+    Giả sử <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;X^TX" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\large&space;X^TX" title="\large X^TX" /></a> có thể nghịch đảo, ta có:
+
+    <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta=(X^TX)^{-1}X^Ty" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\large&space;\theta=(X^TX)^{-1}X^Ty" title="\large \theta=(X^TX)^{-1}X^Ty" /></a>
+
+    * ***Phân tích ưu/nhược điểm của pp này***:
+        * Ưu điểm: công thức đơn giản, chỉ đưa dữ liệu vào và tính toán
+        * Nhược điểm: tài nguyên tính toán ma trận nghịch đảo lớn (complexity), thực tế các bài toán hồi quy thường sử dụng **gradient descent** để tối ưu hóa Cost Function
+
+
