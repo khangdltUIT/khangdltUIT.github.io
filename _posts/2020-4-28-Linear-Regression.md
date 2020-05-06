@@ -90,9 +90,9 @@ Ta nhận thấy rằng các đường thẳng h(x) không hoàn toàn đi qua c
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\theta=(X^TX)^{-1}X^Ty" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\large&space;\theta=(X^TX)^{-1}X^Ty" title="\large \theta=(X^TX)^{-1}X^Ty" /></a>
 
-   * ***Phân tích ưu/nhược điểm của pp này***:
-    * Ưu điểm: công thức đơn giản, chỉ đưa dữ liệu vào và tính toán
-    * Nhược điểm: tài nguyên tính toán ma trận nghịch đảo lớn (complexity), thực tế các bài toán hồi quy thường sử dụng **gradient descent** để tối ưu hóa Cost Function
+    * ***Phân tích ưu/nhược điểm của pp này***:
+        * Ưu điểm: công thức đơn giản, chỉ đưa dữ liệu vào và tính toán
+        * Nhược điểm: tài nguyên tính toán ma trận nghịch đảo lớn (complexity), thực tế các bài toán hồi quy thường sử dụng **gradient descent** để tối ưu hóa Cost Function
     
    * **Gradient Descent**:
 
