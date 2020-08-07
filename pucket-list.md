@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /about/list/
+
 ---
 
 # 100 things to do 
