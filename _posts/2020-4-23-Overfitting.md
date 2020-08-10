@@ -1,9 +1,9 @@
 ---
 layout: post
 categories: Machine
-tittle: Overfitting
+tittle: Overfitting in Machine Learning
 --- 
-# &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Overfitting in Machine Learning
+
 ## &ensp;&ensp;&ensp;&ensp; Tổng quan
 Overfitting là hiện tượng không mong muốn thường gặp trong quá trình xử lý model.
 ### Giới thiệu
