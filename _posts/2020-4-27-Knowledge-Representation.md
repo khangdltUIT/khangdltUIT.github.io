@@ -1,10 +1,9 @@
 ---
 layout: post
 categories: Artificial 
-tittle: Knowledge Representation
+tittle: KNOWLEDGE REPRESENTATION
 --- 
 
-# &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; KNOWLEDGE REPRESENTATION
 ## &ensp;&ensp; Nhắc lại về mệnh đề logic
 
 ### Các khái niệm
