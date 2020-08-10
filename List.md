@@ -10,7 +10,7 @@ Progress at Apr 29, 2020: 17/100
 1. Live in another country ✗ 
 2. Master CS ✗ 
 3. PhD CS ✗ 
-4. Be come Professor ✗ 
+4. Become Professor ✗ 
 5. Ielts 7.0 ✗ 
 6. Read 1000 books(now: 50) ✗ 
 7. Marry my love ✗ 
