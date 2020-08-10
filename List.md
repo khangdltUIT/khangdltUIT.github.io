@@ -1,10 +1,8 @@
 ---
 layout: page
-title: 
+title: 100 things to do 
 permalink: /list/
 ---
-# 100 things to do 
-
 100 things I want to do before I die. Please let me know if you have any recommendation. 
 
 Progress at Apr 29, 2020: 17/100
