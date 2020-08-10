@@ -1,10 +1,9 @@
 ---
 layout: post
-tittle: Linear Regression
+tittle: LINEAR REGRESSION
 categories: Machine
 ---
 
-# &ensp; &ensp; Linear Regression
 
 Đầu tiên tôi sẽ đưa ra 1 mô phỏng dữ liệu giúp bạn dễ cảm nhận được dạng bài toán này
 
