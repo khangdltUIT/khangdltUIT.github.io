@@ -34,5 +34,5 @@ Pipeline of this method:
 
 This architecture is often called "R-CNN".
 
-<img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/Summary-of-the-Fast-R-CNN-Model-Architecture.png" alt="overview" title = "Summarized(taken from paper Fast-RCNN" width="850" height="250" />  
+<img src="https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/Summary-of-the-Fast-R-CNN-Model-Architecture.png" alt="overview" title = "Summarized(taken from paper Fast-RCNN" width="850" height="150" />  
 
