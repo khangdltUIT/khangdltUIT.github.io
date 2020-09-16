@@ -22,7 +22,7 @@ Additionally, one extension of computer vision tasks is object segmentation whic
 #### **Evaluating via boungding box.**  
 
 *Do you think about the measure to evaluate the performance of model?*  
-&ensp; To begin with, we could use MCE ( mean classification error ) across the predicted class labels in order to evaluate the preformance of model with image classification tasks. 
+&ensp; To begin with, we could use MCE ( mean classification error ) across the predicted class labels in order to evaluate the preformance of model with image classification tasks.   
 &ensp; Regarding object localization, the performance of model is evaluated by using the *distance between the expected and predicted bounding box* for the expected class.  
 &ensp; In the case of Object Detection ( Object Recognition), using both precision and recall across each of best matching bounding boxes.
 
