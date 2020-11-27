@@ -21,5 +21,10 @@ With F is the sigmoid activation:
 Batch Norm normalizes input by transfering them to normalized format ( gaussian) in order to improve training phase in deep neural network.
 
 ## 2. How does Batch Norm work?
+Batch Norm normalizes output of a previous activation layer by subtracting the batch mean and dividing by the batch standard deviation.  
 
+However, after this shift/scale of activation outputs by some randomly initialized parameters, the weights in the next layer are no longer optimal. SGD ( Stochastic gradient descent) undoes this normalization if it’s a way for it to minimize the loss function.  
 
+Consequently, batch normalization adds two trainable parameters to each layer, so the normalized output is multiplied by a “standard deviation” parameter (gamma) and add a “mean” parameter (beta). In other words, batch normalization lets SGD do the denormalization by changing only these two weights for each activation, instead of losing the stability of the network by changing all the weights.
+
+![alt](https://miro.medium.com/max/633/1*Hiq-rLFGDpESpr8QNsJ1jg.png)
