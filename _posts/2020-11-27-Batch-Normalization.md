@@ -1,7 +1,7 @@
 ---
 layout: post
 tittle: Batch Normalization
-categories: Computer Vision
+categories: Computer_Vision
 ---
 
 ## 1. What is the idea of Batch Normalization?  
