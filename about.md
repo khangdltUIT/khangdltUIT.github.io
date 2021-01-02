@@ -9,7 +9,7 @@ I am a student at University of Information Technology. To be more precise, I le
 ### School
 * University of Information Technology ( 2018- )
 
-### [Categories](https://kangdoung.github.io/cats/):
-1. [Machine Learning](https://kangdoung.github.io/cats/machine_learning/) 
-2. [Artificical Intelligence](https://kangdoung.github.io/cats/artificial_intelligence/)
+### [Categories](https://khangdltuit.github.io/cats/):
+1. [Machine Learning](https://khangdltuit.github.io/cats/machine_learning/) 
+2. [Artificical Intelligence](https://khangdltuit.github.io/cats/artificial_intelligence/)
 
