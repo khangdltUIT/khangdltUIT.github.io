@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: Machine
+categories: Machine_Learning
 tittle: Overfitting in Machine Learning
 --- 
 
