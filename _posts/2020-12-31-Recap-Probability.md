@@ -1,7 +1,7 @@
 ---
 layout: post
 tittle: Mathematics in Computer Science Review
-categories: Machine Learning
+categories: Machine_Learning
 ---
 
 ![alt](https://raw.githubusercontent.com/khangdltUIT/khangdltUIT.github.io/master/images/background_prob.png)
