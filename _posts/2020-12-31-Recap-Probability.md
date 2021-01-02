@@ -4,7 +4,7 @@ tittle: Mathematics in Computer Science Review
 categories: Machine Learning
 ---
 
-![alt](https://github.com/khangdltUIT/khangdltUIT.github.io/blob/master/images/background_prob.png)
+![alt](https://raw.githubusercontent.com/khangdltUIT/khangdltUIT.github.io/master/images/background_prob.png)
 
 Đây là phần tổng hợp các kiến thức toán về đại số tuyến tính và lý thuyết xác suất thống kê dựa trên 3 quyển sách:  
 * Machine Learning cơ bản (Vũ Hữu Tiệp)
