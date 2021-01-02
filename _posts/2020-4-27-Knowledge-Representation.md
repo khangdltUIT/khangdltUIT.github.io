@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: Artificial 
+categories: Artificial_Intelligence
 tittle: KNOWLEDGE REPRESENTATION
 --- 
 
