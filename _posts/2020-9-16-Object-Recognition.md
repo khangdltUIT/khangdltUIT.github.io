@@ -1,7 +1,7 @@
 ---
 layout: post
 tittle: Object Recognition
-categories: Computer Vision
+categories: Computer_Vision
 ---
 
 ## *Recap Object Localization*  
