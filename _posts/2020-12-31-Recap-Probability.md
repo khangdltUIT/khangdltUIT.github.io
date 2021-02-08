@@ -1,6 +1,6 @@
 ---
 layout: post
-tittle: Mathematics in Computer Science Review
+tittle: Recap Probability
 categories: Machine_Learning
 ---
 
