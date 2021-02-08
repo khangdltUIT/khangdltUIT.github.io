@@ -4,14 +4,21 @@ title: Book
 permalink: /book/
 ---
 
-This is some reviews about books that I read in many years ago.
+These are the books i have read before
 
-1. Ba người thầy vĩ đại
-2. Tôi tài giỏi bạn cũng thế
+Textbooks:
+1. Dive into Deep Learning
+2. Machine Learning cơ bản
+3. Introduction to Machine Learning
+4. Hands on Machine Learning
+5. Programming Pytorch for Deep Learning
+6. Deep Learning ( Ian Goodfellow et al)
+
+Others:
+1. Ba Người Thầy Vĩ Đại - Robin Sharma
+2. I am gifted, so are you!
 3. Đời ngắn lắm đừng ngủ dài
-4. Dive into Deep Learning
-5. Machine Learning cơ bản
-6. Introduction to Machine Learning
-7. Hands on Machine Learning
-8. Programming Pytorch for Deep Learning
-9. Deep Learning ( Ian Goodfellow et al)
+4. Hành trình về phương Đông
+5. Becoming
+6. Origin
+7. 5AM Club
