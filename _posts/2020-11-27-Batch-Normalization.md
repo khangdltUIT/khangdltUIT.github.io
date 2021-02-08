@@ -1,6 +1,6 @@
 ---
 layout: post
-tittle: Batch Normalization
+tittle: Recap: Batch Normalization
 categories: Computer_Vision
 ---
 
