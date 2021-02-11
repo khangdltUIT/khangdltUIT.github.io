@@ -8,7 +8,7 @@ These are the books i have read before
 
 Textbooks:
 1. Dive into Deep Learning
-2. Machine Learning cơ bản
+2. Machine Learning cơ bản - Vũ Hữu Tiệp
 3. Introduction to Machine Learning
 4. Hands on Machine Learning
 5. Programming Pytorch for Deep Learning
@@ -21,4 +21,4 @@ Others:
 4. Hành trình về phương Đông
 5. Becoming
 6. Origin
-7. 5AM Club
+7. 5AM Club (..)
