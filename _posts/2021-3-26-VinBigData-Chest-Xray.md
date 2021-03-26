@@ -27,3 +27,4 @@ Bộ dữ liệu gồm 18000 ảnh theo khuôn mẫu DICOM, với danh tính b�
 13 - Pulmonary fibrosis
 
 Bên cạnh đó nhãn "No finding" được gán cho những ảnh không tồn tại những dấu hiệu của 14 nhãn trên.
+## 2.2 Thống kê bộ dữ liệu
