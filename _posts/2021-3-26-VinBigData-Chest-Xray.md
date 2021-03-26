@@ -32,7 +32,7 @@ Bên cạnh đó nhãn "No finding" được gán cho những ảnh không tồn
 ![alt](https://raw.githubusercontent.com/khangdltUIT/khangdltUIT.github.io/master/images/statiscal_label_vinbd_chest.png)
 
 Có thể thấy bộ dữ liệu mất cân bằng nghiêm trọng. Nhãn 14 - "No finding" chiếm lượng lớn trong bộ dữ liệu với hơn 30000 mẫu, trong khi đó nhãn 12 - "Pneumothorax" lại chiếm lượng rất ít. Điều nãy dẫn đến hiệu quả của mô hình kém. 
-**Nhận xét:** Có thể áp dụng các phương pháp như *cross-validation* trong quá trình đánh giá mô hình để có thể chọn được mô hình phù hợp, đồng thời trong quá trình training có thể thực hiện các phương pháp như *data augmentation*
+**Nhận xét:** Có thể áp dụng các phương pháp như *cross-validation* trong quá trình đánh giá mô hình để có thể chọn được mô hình phù hợp, đồng thời trong quá trình training có thể thực hiện các phương pháp như *data augmentation*, *BCEWithLogitsLoss, FocalLoss*
 
 # 3. Xây dựng mô hình
 ## 3.1 Pre-processing: Normalization Technique
