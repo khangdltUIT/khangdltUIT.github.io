@@ -18,13 +18,17 @@ These techniques can be used for unlabeled data.
 )
 
 Tuy nhiên, người ta thường chia các cách tiếp cận trong Feature selection thành 2 hướng:
+
 * Wrapper
 * Filter
+
 Những năm gần đây, thì xuất hiện thêm 2 hướng nữa là:
+
 * Combined (or Hybrid)
 * Embedded
 
 3. Sự khác nhau giữa Filter và Wrapper - Differences between filter and wrapper methods:
+
 Sự khác nhau chính giữa 2 phương pháp này là:
 * Filter đo về sự tương quan giữa các đặc trưng, trong khi Wrapper đo bằng cách huấn luyện tập dữ liệu trên tập các đặc trưng.
 * Filter nhanh hơn so với wrapper do nó không thực hiện huấn luyện mô hình. Bên cạnh đó, Wrapper tốn nhiều tài nguyên tính toán.
