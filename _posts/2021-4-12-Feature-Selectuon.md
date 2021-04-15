@@ -44,4 +44,21 @@ The main diffence between both methods are:
 * As the consequence, using the subset features provided by wrapper method might be lead to overfitting.
 
 # Thuật toán Genetic Algorithms
+![alt](https://raw.githubusercontent.com/khangdltUIT/khangdltUIT.github.io/master/images/genetic_algorithm.png)
+Thuật toán di truyền (genetic algorithms - GAs) là 1 thuật toán tối ưu hóa toàn cục được lấy ý tưởng dựa trên học thuyết của Darwin.
+Ý tưởng của GAs là tạo ra các biến ngẫu nhiên, sau đó kết hợp các biến tốt nhất lại với nhau thông qua quá trình lặp.
+Sự kết hợp của GAs gồm 3 bước:
+* **Chọn lọc (selection):** chọn những feature tốt nhất ( model có ROC cao nhất)
+* **Giao thoa (crossover):** tạo 1 tập feature mới dựa trên csac feature của các model
+* **Đột biến (mutation):** thay đổi ngẫu nhiên 1 feature.
+
+Genetic algorithms(GAs) is a algorithms for stochastic global optimization which is based on Darwin.
+The idea is that Gas creates random variables, then crossover them, after that combining them which is best in group  to have a best subset features.
+A progress has 3 parts:
+* Selection
+* Crossover
+* Mutuation
+# Cài đặt với thư viện sklearn-genetic
+
+
 
