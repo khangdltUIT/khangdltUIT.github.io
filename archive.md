@@ -6,16 +6,19 @@ permalink: /archive/
 Here is some of my writting by topics.
 
 ### **Machine Learning**  
-* Linear Regression  
-* Logistic Regression  
+* [Linear Regression](https://khangdltuit.github.io/Linear-Regression/): analyzing model, loss function, and implementing from scratch.
+* [Logistic Regression](https://khangdltuit.github.io/Logistic-Regression-for-Machine-Learning/): analyzing model, loss function, and implementing from scratch.
+* Lasso Regression
+* KNN - K-nearest neighbors: 
+* [Feature Selection](https://khangdltuit.github.io/Feature-Selection/): review feature selection techniques, recap of Genetic Algorithms and implement with sklearn-genetic library.
   
 ### **Computer Vision**  
-* Unet Segmentation   
+* [Medical images segmentation based on Unet](https://khangdltuit.github.io/Medical-images-segmentation-based-on-Unet/): recap of Unet, loss functions and implementation.
   
 ### **Recap Courses**  
 * Convolutional Neural Network(deeplearning.ai)  
   
 ### **IELTS**
 * Writing:
-    * Map
+    * [Map](https://khangdltuit.github.io/Theory-for-MAP-and-sample-essays/): theory for map and sample essays. 
     * Process
