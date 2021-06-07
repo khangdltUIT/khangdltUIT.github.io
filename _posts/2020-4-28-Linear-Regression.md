@@ -1,7 +1,7 @@
 ---
 layout: post
 tittle: LINEAR REGRESSION
-categories: Machine_Learning
+categories: ML
 ---
 
 
