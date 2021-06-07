@@ -5,17 +5,17 @@ permalink: /archive/
 ---
 Here is some of my writting by topics.
 
-### Machine Learning  
+### **Machine Learning**  
 * Linear Regression  
 * Logistic Regression  
   
-### Computer Vision  
+### **Computer Vision**  
 * Unet Segmentation   
   
-### Recap Courses  
+### **Recap Courses**  
 * Convolutional Neural Network(deeplearning.ai)  
   
-### IELTS
+### **IELTS**
 * Writing:
     * Map
     * Process
