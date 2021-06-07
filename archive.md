@@ -5,6 +5,11 @@ permalink: /archive/
 ---
 
 ## * Machine Learning
+    *   Linear Regression
+    *   Logistic Regression
+    *   Overfitting
 ## * Computer Vision
+    *   Unet Segmentation   
 ## * Recap Courses
-## * IELT
+    *   Convolutional Neural Network (deeplearning.ai)
+## * IELTS
