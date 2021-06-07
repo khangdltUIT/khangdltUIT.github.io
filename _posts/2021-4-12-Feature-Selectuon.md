@@ -1,7 +1,7 @@
 ---
 layout: post
 tittle: Feature Selection
-categories: Machine_Learning
+categories: ML
 ---
 # Mục đích của Feature Selection
 Mục đích của việc áp dụng các kỹ thuật feature selection nhằm tìm ra tập các đặc trưng để xây dựng một mô hình hiệu quả.
