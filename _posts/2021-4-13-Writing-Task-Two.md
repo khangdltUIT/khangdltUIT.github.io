@@ -1,6 +1,6 @@
 ---
 layout: post
-tittle: Hành trình luyện thi IETLS-Writing Task 2 OPINION ESSAY
+tittle: Writing Task 2 - OPINION ESSAY
 categories: IELTS
 ---
 
