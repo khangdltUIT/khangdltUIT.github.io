@@ -3,24 +3,30 @@ layout: post
 tittle: Feature Selection
 categories: ML
 ---
-# Mục đích của Feature Selection
+## Mục đích của Feature Selection
 Mục đích của việc áp dụng các kỹ thuật feature selection nhằm tìm ra tập các đặc trưng để xây dựng một mô hình hiệu quả.
 The goal of using feature selection is to find the best set of features which build a useful model.
 
-## Note: Điểm khác nhau giữa PCA và Feature Selection - the differences between PCA(Principal Component Analysis) and Feature Selection
-PCA cố gắng giảm chiều của dữ liệu bằng cách một đặc trưng của dữ liệu có thể thể hiện bằng các đặc trưng khác ( phụ thuộc tuyến tính). (thay đổi đặc trưng của dữ liệu)
-Trong khi đó, Feature Selection sẽ xếp hạng tác động của đặc trưng đến mô hình, từ đó để lựa chọn các đặc trưng trên các thứ hạng đó (không làm thay đổi đặc trưng của dữ liệu)
+***Note: Điểm khác nhau giữa PCA và Feature Selection - the differences between PCA(Principal Component Analysis) and Feature Selection***  
 
-PCA tr to reduce features dimensionally of data by exploring how one feature is expressed by other features(linear dependency).
-On the other hand, Feature Selection ranks the affection of features on the model, then, selects subset of features on those ranking.
+* PCA cố gắng giảm chiều của dữ liệu bằng cách một đặc trưng của dữ liệu có thể thể hiện bằng các đặc trưng khác ( phụ thuộc tuyến tính). (thay đổi đặc trưng của dữ liệu)
+
+* Trong khi đó, Feature Selection sẽ xếp hạng tác động của đặc trưng đến mô hình, từ đó để lựa chọn các đặc trưng trên các thứ hạng đó (không làm thay đổi đặc trưng của dữ liệu)
+
+* PCA tries to reduce features dimensionally of data by exploring how one feature is expressed by other features(linear dependency).
+
+* On the other hand, Feature Selection ranks the affection of features on the model, then, selects subset of features on those ranking.
 
 
-# Phân loại:
-1. Supervised Techniques:
-*   Áp dụng cho các dữ liệu đã được gán nhãn và có thể nhận ra sự tương quan giữa các đặc trưng nhằm tăng độ chính xác của mô hình học có giám sát như phân loại và hồi quy
+## Phân loại:
+1. Supervised Techniques:  
+
+Áp dụng cho các dữ liệu đã được gán nhãn và có thể nhận ra sự tương quan giữa các đặc trưng nhằm tăng độ chính xác của mô hình học có giám sát như phân loại và hồi quy  
+
 These techniques can be used for labeled data, and could identify relevant features of increasing efficient of supervised model like classification and regression.
-2. Unsupervised Techniques:
-*   Áp dụng cho dữ liệu không gán nhãn
+2. Unsupervised Techniques:  
+
+Áp dụng cho dữ liệu không gán nhãn
 These techniques can be used for unlabeled data.
 
 ![alt](https://raw.githubusercontent.com/khangdltUIT/khangdltUIT.github.io/master/images/Overview-of-Feature-Selection-Techniques3.webp
@@ -54,7 +60,7 @@ The main diffence between both methods are:
 
 
 
-# Thuật toán Genetic Algorithms
+## Thuật toán Genetic Algorithms
 ![alt](https://raw.githubusercontent.com/khangdltUIT/khangdltUIT.github.io/master/images/genetic_algorithm.png)
 Thuật toán di truyền (genetic algorithms - GAs) là 1 thuật toán tối ưu hóa toàn cục được lấy ý tưởng dựa trên học thuyết của Darwin.
 Ý tưởng của GAs là tạo ra các biến ngẫu nhiên, sau đó kết hợp các biến tốt nhất lại với nhau thông qua quá trình lặp.
@@ -69,7 +75,7 @@ A progress has 3 parts:
 * Selection
 * Crossover
 * Mutuation
-# Cài đặt với thư viện sklearn-genetic
+## Cài đặt với thư viện sklearn-genetic
 
 
 
