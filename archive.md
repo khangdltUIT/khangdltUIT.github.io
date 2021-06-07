@@ -6,6 +6,7 @@ permalink: /archive/
 Here is some of my writting by topics.
 
 ### **Machine Learning**  
+* [Mathematics](https://khangdltuit.github.io/Mathematics-for-Machine-Learning/): recap of mathematics for Machine Learning including linear algebra, probability, statistical.
 * [Linear Regression](https://khangdltuit.github.io/Linear-Regression/): analyzing model, loss function, and implementing from scratch.
 * [Logistic Regression](https://khangdltuit.github.io/Logistic-Regression-for-Machine-Learning/): analyzing model, loss function, and implementing from scratch.
 * Lasso Regression
