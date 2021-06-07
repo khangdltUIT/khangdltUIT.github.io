@@ -11,7 +11,10 @@ Here is some of my writting by topics.
 * Lasso Regression
 * KNN - K-nearest neighbors: 
 * [Genetic Algorithms for Feature Selection](https://khangdltuit.github.io/Feature-Selection/): review feature selection techniques, recap of Genetic Algorithms and implement with sklearn-genetic library.
-  
+
+### **Deep Learning**
+* [Batch Normalization](https://khangdltuit.github.io/Batch-Normalization/): analyzing batch normalization and how it solve the problem in training deep neural network.
+
 ### **Computer Vision**  
 * [Medical images segmentation based on Unet](https://khangdltuit.github.io/Medical-images-segmentation-based-on-Unet/): recap of Unet, loss functions and implementation.
   
