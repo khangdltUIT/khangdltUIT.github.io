@@ -10,7 +10,7 @@ Here is some of my writting by topics.
 * [Logistic Regression](https://khangdltuit.github.io/Logistic-Regression-for-Machine-Learning/): analyzing model, loss function, and implementing from scratch.
 * Lasso Regression
 * KNN - K-nearest neighbors: 
-* [Feature Selection](https://khangdltuit.github.io/Feature-Selection/): review feature selection techniques, recap of Genetic Algorithms and implement with sklearn-genetic library.
+* [Genetic Algorithms for Feature Selection](https://khangdltuit.github.io/Feature-Selection/): review feature selection techniques, recap of Genetic Algorithms and implement with sklearn-genetic library.
   
 ### **Computer Vision**  
 * [Medical images segmentation based on Unet](https://khangdltuit.github.io/Medical-images-segmentation-based-on-Unet/): recap of Unet, loss functions and implementation.
