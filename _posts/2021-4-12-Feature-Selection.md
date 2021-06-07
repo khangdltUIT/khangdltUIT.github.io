@@ -7,7 +7,13 @@ categories: ML
 Mục đích của việc áp dụng các kỹ thuật feature selection nhằm tìm ra tập các đặc trưng để xây dựng một mô hình hiệu quả.
 The goal of using feature selection is to find the best set of features which build a useful model.
 
-## 
+## Note: Điểm khác nhau giữa PCA và Feature Selection - the differences between PCA(Principal Component Analysis) and Feature Selection
+PCA cố gắng giảm chiều của dữ liệu bằng cách một đặc trưng của dữ liệu có thể thể hiện bằng các đặc trưng khác ( phụ thuộc tuyến tính). (thay đổi đặc trưng của dữ liệu)
+Trong khi đó, Feature Selection sẽ xếp hạng tác động của đặc trưng đến mô hình, từ đó để lựa chọn các đặc trưng trên các thứ hạng đó (không làm thay đổi đặc trưng của dữ liệu)
+
+PCA tr to reduce features dimensionally of data by exploring how one feature is expressed by other features(linear dependency).
+On the other hand, Feature Selection ranks the affection of features on the model, then, selects subset of features on those ranking.
+
 
 # Phân loại:
 1. Supervised Techniques:
