@@ -6,11 +6,11 @@ permalink: /archive/
 Here is some of my writting by topics.
 
 ## Machine Learning
-    *   Linear Regression
-    *   Logistic Regression
-    *   Overfitting
+    * Linear Regression
+    * Logistic Regression
+    * Overfitting
 ## Computer Vision
-    *   Unet Segmentation   
+    * Unet Segmentation   
 ## Recap Courses
-    *   Convolutional Neural Network(deeplearning.ai)
+    * Convolutional Neural Network(deeplearning.ai)
 ## IELTS
