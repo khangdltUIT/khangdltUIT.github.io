@@ -15,10 +15,12 @@ Textbooks:
 6. Deep Learning ( Ian Goodfellow et al)
 
 Others:
-1. Ba Người Thầy Vĩ Đại - Robin Sharma
-2. I am gifted, so are you!
+1. Ba Người Thầy Vĩ Đại (Robin Sharma)
+2. I am gifted, so are you! (Adam Khoo)
 3. Đời ngắn lắm đừng ngủ dài
-4. Hành trình về phương Đông
-5. Becoming
-6. Origin
-7. 5AM Club (..)
+5. Becoming (Michelle Obama)
+6. Origin (Dan Brown)
+7. Nhà giả kim (Robin Sharma)
+8. Ikigai - đi tìm lí do thức dậy mỗi buổi sáng (Héctor García - Francesc Miralles)
+9. Ikigai - chất Nhật trong từng khoảnh khắc (Yukari Mitshuhashi)
+10. Muôn kiếp nhân sinh - Many lives many times (John Vu)
