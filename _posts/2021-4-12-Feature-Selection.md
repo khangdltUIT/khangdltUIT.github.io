@@ -6,6 +6,9 @@ categories: ML
 # Mục đích của Feature Selection
 Mục đích của việc áp dụng các kỹ thuật feature selection nhằm tìm ra tập các đặc trưng để xây dựng một mô hình hiệu quả.
 The goal of using feature selection is to find the best set of features which build a useful model.
+
+## 
+
 # Phân loại:
 1. Supervised Techniques:
 *   Áp dụng cho các dữ liệu đã được gán nhãn và có thể nhận ra sự tương quan giữa các đặc trưng nhằm tăng độ chính xác của mô hình học có giám sát như phân loại và hồi quy
@@ -42,6 +45,8 @@ The main diffence between both methods are:
 * Filter method use statiscal to measure the relevance of features, while wrapper method use cross-validation.
 * Filter could find the best subset of feature, but wrapper method always provide the best subset features.
 * As the consequence, using the subset features provided by wrapper method might be lead to overfitting.
+
+
 
 # Thuật toán Genetic Algorithms
 ![alt](https://raw.githubusercontent.com/khangdltUIT/khangdltUIT.github.io/master/images/genetic_algorithm.png)
