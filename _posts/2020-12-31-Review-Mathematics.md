@@ -1,7 +1,7 @@
 ---
 layout: post
 tittle: Mathematics
-categories: Machine_Learning
+categories: ML
 ---
 
 ![alt](https://raw.githubusercontent.com/khangdltUIT/khangdltUIT.github.io/master/images/background_prob.png)
