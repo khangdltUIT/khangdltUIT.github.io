@@ -1,7 +1,7 @@
 ---
 layout: post
 tittle: VinBigData Chest X-ray
-categories: Computer_Vision
+categories: CV
 ---
 
 ![alt](https://raw.githubusercontent.com/khangdltUIT/khangdltUIT.github.io/master/images/header_vinchest.png)
