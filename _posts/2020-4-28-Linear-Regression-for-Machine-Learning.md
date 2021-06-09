@@ -4,7 +4,7 @@ tittle: LINEAR REGRESSION IN MACHINE LEARNING
 categories: ML
 ---
 
-![alt](https://raw.githubusercontent.com/khangdltUIT/khangdltUIT.github.io/master/images/linear_regression.jpg)
+![alt](https://raw.githubusercontent.com/khangdltUIT/khangdltUIT.github.io/master/images/Vintage%20Logotype%20Etsy%20Banner.png)
 ## 1. Giới thiệu - Introduction
 &ensp; Hồi quy tuyến tính là mô hình mở đầu cho nhiều khóa học về Machine Learning bởi vì tính đơn giản và dễ hiểu của nó.  
 &ensp; Hồi quy tuyến tính thuộc loại mô hình học tập có giám sát ( *supervised learning*), được sử dụng trong các bài toán về hồi quy.
