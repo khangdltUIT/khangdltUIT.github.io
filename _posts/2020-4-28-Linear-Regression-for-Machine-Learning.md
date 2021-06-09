@@ -17,11 +17,21 @@ categories: ML
 ### Biểu diễn mô hình - Model Representation
 &ensp; Đầu tiên, hồi quy tuyến tính là mô hình trực quan bởi vì cách biểu diễn của nó rất đơn giản.
 &ensp; Một hàm tuyến tính sẽ đại diện cho mô hình kết hợp các dặc trưng ( features) đầu vào để dự đoán đầu ra. Kiểu dữ liệu của chúng đều là số thực. 
+
+Initially, linear regression is an atractive model because of its simplicity model representation.  
+A linear equation presenting the model combines features input for predicting output. The type of both  
+
 &ensp; Công thức:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;Y&space;=&space;W_0&space;&plus;&space;W_1\cdot&space;X" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;Y&space;=&space;W_0&space;&plus;&space;W_1\cdot&space;X" title="Y = W_0 + W_1\cdot X" /></a>
 
 &ensp;Tuy nhiên trong các bài toán thực tế, các đặc trưng trong bộ dữ liệu có thể tăng lên đến cả hàng chục thuộc tính. Do đó, W1 có thể được hiểu là một vectơ tham số như sau: W1 = [W1,W2,..Wn]. Tương tự cho vectơ đặc trưng X.
-Mô hình có thể biểu diễn lại như sau:
+Mô hình có thể biểu diễn lại như sau:  
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;Y&space;=&space;\begin{bmatrix}&space;W_0\\&space;W_1\\&space;...\\&space;W_n\\&space;\end{bmatrix}&space;\cdot&space;\begin{bmatrix}&space;1\\&space;X_1\\&space;...\\&space;X_n\\&space;\end{bmatrix}&space;=&space;W^{T}\cdot&space;X" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;Y&space;=&space;\begin{bmatrix}&space;W_0\\&space;W_1\\&space;...\\&space;W_n\\&space;\end{bmatrix}&space;\cdot&space;\begin{bmatrix}&space;1\\&space;X_1\\&space;...\\&space;X_n\\&space;\end{bmatrix}&space;=&space;W^{T}\cdot&space;X" title="Y = \begin{bmatrix} W_0\\ W_1\\ ...\\ W_n\\ \end{bmatrix} \cdot \begin{bmatrix} 1\\ X_1\\ ...\\ X_n\\ \end{bmatrix} = W^{T}\cdot X" />
 * ***Notes:  Bias Trick***
+Linear Regression thường được nói đến 1 quan hệ phức tạp hơn một chút khi có sự xuất hiện của số hạng tự do W0 ( một số tài liệu sẽ là b).  
+Mối quan hệ này được gọi là *affine*.
+* Nếu W0 == 0, đường thẳng y luôn đi qua gốc tọa độ.
+* Nếu W0 != 0, mô hình sẽ linh hoạt hơn bằng cách bỏ ràng buộc quan hệ giữa input và output là phải luôn đi qua gốc tọa độ O. Đại lượng W0 được gọi là bias.
+Kỹ thuật thêm 1 đặc trưng bằng 1 vào vector đặc trưng và ghép bias b vào vector hệ số w được gọi là bias trick. 
