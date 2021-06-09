@@ -18,14 +18,17 @@ categories: ML
 &ensp; Đầu tiên, hồi quy tuyến tính là mô hình trực quan bởi vì cách biểu diễn của nó rất đơn giản.
 &ensp; Một hàm tuyến tính sẽ đại diện cho mô hình kết hợp các dặc trưng ( features) đầu vào để dự đoán đầu ra. Kiểu dữ liệu của chúng đều là số thực. 
 
-Initially, linear regression is an atractive model because of its simplicity model representation.  
-A linear equation presenting the model combines features input for predicting output. The type of both  
+Initially, linear regression is an attractive model because of its simple model representation.  
+A linear equation presenting the model combines features input for predicting the output. Both of them is numeric.
 
 &ensp; Công thức:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;Y&space;=&space;W_0&space;&plus;&space;W_1\cdot&space;X" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;Y&space;=&space;W_0&space;&plus;&space;W_1\cdot&space;X" title="Y = W_0 + W_1\cdot X" /></a>
 
 &ensp;Tuy nhiên trong các bài toán thực tế, các đặc trưng trong bộ dữ liệu có thể tăng lên đến cả hàng chục thuộc tính. Do đó, W1 có thể được hiểu là một vectơ tham số như sau: W1 = [W1,W2,..Wn]. Tương tự cho vectơ đặc trưng X.
+
+However, in real-life problems, features in the dataset could be scaled up to more than 30. So, W1 could be presented by a parameters vector, like: W1 = [W1,W2,..Wn], same for features vector X.
+
 Mô hình có thể biểu diễn lại như sau:  
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;Y&space;=&space;\begin{bmatrix}&space;W_0\\&space;W_1\\&space;...\\&space;W_n\\&space;\end{bmatrix}&space;\cdot&space;\begin{bmatrix}&space;1\\&space;X_1\\&space;...\\&space;X_n\\&space;\end{bmatrix}&space;=&space;W^{T}\cdot&space;X" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;Y&space;=&space;\begin{bmatrix}&space;W_0\\&space;W_1\\&space;...\\&space;W_n\\&space;\end{bmatrix}&space;\cdot&space;\begin{bmatrix}&space;1\\&space;X_1\\&space;...\\&space;X_n\\&space;\end{bmatrix}&space;=&space;W^{T}\cdot&space;X" title="Y = \begin{bmatrix} W_0\\ W_1\\ ...\\ W_n\\ \end{bmatrix} \cdot \begin{bmatrix} 1\\ X_1\\ ...\\ X_n\\ \end{bmatrix} = W^{T}\cdot X" />
@@ -35,3 +38,9 @@ Mối quan hệ này được gọi là *affine*.
 * Nếu W0 == 0, đường thẳng y luôn đi qua gốc tọa độ.
 * Nếu W0 != 0, mô hình sẽ linh hoạt hơn bằng cách bỏ ràng buộc quan hệ giữa input và output là phải luôn đi qua gốc tọa độ O. Đại lượng W0 được gọi là bias.
 Kỹ thuật thêm 1 đặc trưng bằng 1 vào vector đặc trưng và ghép bias b vào vector hệ số w được gọi là bias trick. 
+--  
+Linear Regression often mentioned a more little bit complex relation when it has a free parameter W0( be also called b in some materials ).
+This relation is called affine.
+* If W0 == 0, the regression line ưill usually cross through the origin.
+* If W0 != 0, the model will be more flexible by removing the constraint relationship between features input and predicted output. The quantity W0 is called bias.
+The technique of adding one feature whose value is one and concatenate bias b to parameters vector w is called the bias trick.
