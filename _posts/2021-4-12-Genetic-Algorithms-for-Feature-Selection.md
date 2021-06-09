@@ -3,7 +3,10 @@ layout: post
 tittle: Feature Selection
 categories: ML
 ---
-## Mục đích của Feature Selection
+
+![alt](https://raw.githubusercontent.com/khangdltUIT/khangdltUIT.github.io/master/images/genetic%20algo%20ffeatureselection%20-%20tittle.png)
+
+## 1.Mục đích của Feature Selection
 Mục đích của việc áp dụng các kỹ thuật feature selection nhằm tìm ra tập các đặc trưng để xây dựng một mô hình hiệu quả.
 The goal of using feature selection is to find the best set of features that build a useful model.
 
@@ -18,7 +21,7 @@ The goal of using feature selection is to find the best set of features that bui
 * On the other hand, Feature Selection ranks the affection of features on the model, then selects a subset of features on those ranking.
 
 
-## Phân loại:
+## 2. Phân loại:
 1. Supervised Techniques:  
 
 Áp dụng cho các dữ liệu đã được gán nhãn và có thể nhận ra sự tương quan giữa các đặc trưng nhằm tăng độ chính xác của mô hình học có giám sát như phân loại và hồi quy  
@@ -60,7 +63,7 @@ The main difference between both methods are:
 
 
 
-## Thuật toán Genetic Algorithms
+## 3. Thuật toán Genetic Algorithms
 ![alt](https://raw.githubusercontent.com/khangdltUIT/khangdltUIT.github.io/master/images/genetic_algorithm.png)
 Thuật toán di truyền (genetic algorithms - GAs) là 1 thuật toán tối ưu hóa toàn cục được lấy ý tưởng dựa trên học thuyết của Darwin.
 Ý tưởng của GAs là tạo ra các biến ngẫu nhiên, sau đó kết hợp các biến tốt nhất lại với nhau thông qua quá trình lặp.
@@ -75,7 +78,7 @@ Progress has 3 parts:
 * Selection
 * Crossover
 * Mutation
-## Cài đặt với thư viện sklearn-genetic
+## 4. Cài đặt với thư viện sklearn-genetic
 
 
 
