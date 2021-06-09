@@ -32,14 +32,18 @@ However, in real-life problems, features in the dataset could be scaled up to mo
 Mô hình có thể biểu diễn lại như sau:  
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;Y&space;=&space;\begin{bmatrix}&space;W_0\\&space;W_1\\&space;...\\&space;W_n\\&space;\end{bmatrix}&space;\cdot&space;\begin{bmatrix}&space;1\\&space;X_1\\&space;...\\&space;X_n\\&space;\end{bmatrix}&space;=&space;W^{T}\cdot&space;X" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;Y&space;=&space;\begin{bmatrix}&space;W_0\\&space;W_1\\&space;...\\&space;W_n\\&space;\end{bmatrix}&space;\cdot&space;\begin{bmatrix}&space;1\\&space;X_1\\&space;...\\&space;X_n\\&space;\end{bmatrix}&space;=&space;W^{T}\cdot&space;X" title="Y = \begin{bmatrix} W_0\\ W_1\\ ...\\ W_n\\ \end{bmatrix} \cdot \begin{bmatrix} 1\\ X_1\\ ...\\ X_n\\ \end{bmatrix} = W^{T}\cdot X" />
-* ***Notes:  Bias Trick***
-Linear Regression thường được nói đến 1 quan hệ phức tạp hơn một chút khi có sự xuất hiện của số hạng tự do W0 ( một số tài liệu sẽ là b).  
+* ***Notes:  Bias Trick*** 
+
+&ensp;Linear Regression thường được nói đến 1 quan hệ phức tạp hơn một chút khi có sự xuất hiện của số hạng tự do W0 ( một số tài liệu sẽ là b).  
 Mối quan hệ này được gọi là *affine*.
+
 * Nếu W0 == 0, đường thẳng y luôn đi qua gốc tọa độ.
 * Nếu W0 != 0, mô hình sẽ linh hoạt hơn bằng cách bỏ ràng buộc quan hệ giữa input và output là phải luôn đi qua gốc tọa độ O. Đại lượng W0 được gọi là bias.
 Kỹ thuật thêm 1 đặc trưng bằng 1 vào vector đặc trưng và ghép bias b vào vector hệ số w được gọi là bias trick. 
+
 --  
-Linear Regression often mentioned a more little bit complex relation when it has a free parameter W0( be also called b in some materials ).
+
+&ensp;Linear Regression often mentioned a more little bit complex relation when it has a free parameter W0( be also called b in some materials ).
 This relation is called affine.
 * If W0 == 0, the regression line ưill usually cross through the origin.
 * If W0 != 0, the model will be more flexible by removing the constraint relationship between features input and predicted output. The quantity W0 is called bias.
