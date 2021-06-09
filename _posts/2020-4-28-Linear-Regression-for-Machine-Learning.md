@@ -18,7 +18,8 @@ categories: ML
 
 ## 2. Mô hình Linear Regression trong Machine Learning
 ### Biểu diễn mô hình - Model Representation
-&ensp; Đầu tiên, hồi quy tuyến tính là mô hình trực quan bởi vì cách biểu diễn của nó rất đơn giản.
+&ensp; Đầu tiên, hồi quy tuyến tính là mô hình trực quan bởi vì cách biểu diễn của nó rất đơn giản.  
+
 &ensp; Một hàm tuyến tính sẽ đại diện cho mô hình kết hợp các dặc trưng ( features) đầu vào để dự đoán đầu ra. Kiểu dữ liệu của chúng đều là số thực. 
 
 Initially, linear regression is an attractive model because of its simple model representation.  
