@@ -10,9 +10,12 @@ categories: ML
 &ensp; Hồi quy tuyến tính thuộc loại mô hình học tập có giám sát ( *supervised learning*), được sử dụng trong các bài toán về hồi quy.
 &ensp; Ngoài ra, mô hình được ứng dụng rộng rãi trong cuộc sống như: dự báo thời tiết, giá nhà, ... và còn có thể ứng dụng trong Feature Selection do có thể đánh giá được mối liên hệ giữa thuộc tính và kết quả dự đoán.
 
-&ensp;Linear Regression is a model introduced in most courses about Machine Learning because of its simplicity and ease of learning.
-&ensp;Linear Regression is a supervised learning model, which is used in regression tasks.
-&ensp; Furthermore, its model is applied in many are of life, namely: weather forecast, housing price, and in Feature Selection field, because it could measure the coefficient between features and output.
+&ensp;Linear Regression is a model introduced in most courses about Machine Learning because of its simplicity and ease of learning.  
+
+&ensp;Linear Regression is a supervised learning model, which is used in regression tasks.  
+
+&ensp; Furthermore, its model is applied in many are of life, namely: weather forecast, housing price, and in Feature Selection field, because it could measure the coefficient between features and output.  
+
 ## 2. Mô hình Linear Regression trong Machine Learning
 ### Biểu diễn mô hình - Model Representation
 &ensp; Đầu tiên, hồi quy tuyến tính là mô hình trực quan bởi vì cách biểu diễn của nó rất đơn giản.
@@ -48,3 +51,4 @@ This relation is called affine.
 * If W0 == 0, the regression line ưill usually cross through the origin.
 * If W0 != 0, the model will be more flexible by removing the constraint relationship between features input and predicted output. The quantity W0 is called bias.
 The technique of adding one feature whose value is one and concatenate bias b to parameters vector w is called the bias trick.
+### Xây dựng hàm mất mát và tối ưu - Build a Loss Function and optimize.
