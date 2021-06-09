@@ -5,7 +5,7 @@ categories: ML
 ---
 ## Mục đích của Feature Selection
 Mục đích của việc áp dụng các kỹ thuật feature selection nhằm tìm ra tập các đặc trưng để xây dựng một mô hình hiệu quả.
-The goal of using feature selection is to find the best set of features which build a useful model.
+The goal of using feature selection is to find the best set of features that build a useful model.
 
 ***Note: Điểm khác nhau giữa PCA và Feature Selection - the differences between PCA(Principal Component Analysis) and Feature Selection***  
 
@@ -13,9 +13,9 @@ The goal of using feature selection is to find the best set of features which bu
 
 * Trong khi đó, Feature Selection sẽ xếp hạng tác động của đặc trưng đến mô hình, từ đó để lựa chọn các đặc trưng trên các thứ hạng đó (không làm thay đổi đặc trưng của dữ liệu)
 
-* PCA tries to reduce features dimensionally of data by exploring how one feature is expressed by other features(linear dependency).
+* PCA tries to reduce data dimensionality by exploring how one part is expressed by other attributes (linear dependency).
 
-* On the other hand, Feature Selection ranks the affection of features on the model, then, selects subset of features on those ranking.
+* On the other hand, Feature Selection ranks the affection of features on the model, then selects a subset of features on those ranking.
 
 
 ## Phân loại:
@@ -23,7 +23,7 @@ The goal of using feature selection is to find the best set of features which bu
 
 Áp dụng cho các dữ liệu đã được gán nhãn và có thể nhận ra sự tương quan giữa các đặc trưng nhằm tăng độ chính xác của mô hình học có giám sát như phân loại và hồi quy  
 
-These techniques can be used for labeled data, and could identify relevant features of increasing efficient of supervised model like classification and regression.
+These techniques can be used for labelled data and could identify relevant features of increasing the efficiency of supervised models like classification and regression.
 2. Unsupervised Techniques:  
 
 Áp dụng cho dữ liệu không gán nhãn
@@ -51,12 +51,12 @@ Sự khác nhau chính giữa 2 phương pháp này là:
 * Filter có thể không chọn ra được tập các đặc trưng tốt nhất trong khi wrapper chọn ra được tập đặc trưng tốt nhất.
 * Sử dụng tập đặc trưng của Wrapper có thể dẫn đến tình trạng overfitting hơn là sử dụng tập đặc trưng của filter.
 
-The main diffence between both methods are:
-* Filter method measures the relevance of features, while Wrapper method mesures by training the data on subset of fetures and then select it.
-* Filter method is faster than the other method as filter method not select subset of feature from training model.Futhermore, wrapper method could use more resource for computation.
-* Filter method use statiscal to measure the relevance of features, while wrapper method use cross-validation.
-* Filter could find the best subset of feature, but wrapper method always provide the best subset features.
-* As the consequence, using the subset features provided by wrapper method might be lead to overfitting.
+The main difference between both methods are:
+* Filter method measures the relevance of features, while Wrapper method measures by training the data on a subset of features and then select it.
+* Filter method is faster than the other method as filter method not a select subset of a feature of the training model. Furthermore, the wrapper method could use more resources for computation.
+* Filter methods use statistical to measure the relevance of features, while the wrapper method use cross-validation.
+* The filter could find the best subset of features, but the wrapper method always provides the best subset features.
+* As a consequence, using the subset features provided by the wrapper method might be lead to overfitting.
 
 
 
@@ -69,12 +69,12 @@ Sự kết hợp của GAs gồm 3 bước:
 * **Giao thoa (crossover):** tạo 1 tập feature mới dựa trên csac feature của các model
 * **Đột biến (mutation):** thay đổi ngẫu nhiên 1 feature.
 
-Genetic algorithms(GAs) is a algorithms for stochastic global optimization which is based on Darwin.
-The idea is that Gas creates random variables, then crossover them, after that combining them which is best in group  to have a best subset features.
-A progress has 3 parts:
+Genetic algorithms(GAs) are algorithms for stochastic global optimization, which is based on Darwin.
+The idea is that Gas creates random variables, then crossover them, after that combining them which is best in the group to have the best subset features.
+Progress has 3 parts:
 * Selection
 * Crossover
-* Mutuation
+* Mutation
 ## Cài đặt với thư viện sklearn-genetic
 
 
