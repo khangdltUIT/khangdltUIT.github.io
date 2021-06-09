@@ -9,20 +9,17 @@ categories: ML
 &ensp; Hồi quy tuyến tính là mô hình mở đầu cho nhiều khóa học về Machine Learning bởi vì tính đơn giản và dễ hiểu của nó.  
 &ensp; Hồi quy tuyến tính thuộc loại mô hình học tập có giám sát ( *supervised learning*), được sử dụng trong các bài toán về hồi quy.
 &ensp; Ngoài ra, mô hình được ứng dụng rộng rãi trong cuộc sống như: dự báo thời tiết, giá nhà, ... và còn có thể ứng dụng trong Feature Selection do có thể đánh giá được mối liên hệ giữa thuộc tính và kết quả dự đoán.
-
+--
 &ensp;Linear Regression is a model introduced in most courses about Machine Learning because of its simplicity and ease of learning.  
-
 &ensp;Linear Regression is a supervised learning model, which is used in regression tasks.  
-
 &ensp; Furthermore, its model is applied in many are of life, namely: weather forecast, housing price, and in Feature Selection field, because it could measure the coefficient between features and output.  
 
 ## 2. Mô hình Linear Regression trong Machine Learning
 
 ### Biểu diễn mô hình - Model Representation
 &ensp; Đầu tiên, hồi quy tuyến tính là mô hình trực quan bởi vì cách biểu diễn của nó rất đơn giản.  
-
 &ensp; Một hàm tuyến tính sẽ đại diện cho mô hình kết hợp các dặc trưng ( features) đầu vào để dự đoán đầu ra. Kiểu dữ liệu của chúng đều là số thực. 
-
+--
 Initially, linear regression is an attractive model because of its simple model representation.  
 A linear equation presenting the model combines features input for predicting the output. Both of them is numeric.
 
@@ -31,7 +28,7 @@ A linear equation presenting the model combines features input for predicting th
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;Y&space;=&space;W_0&space;&plus;&space;W_1\cdot&space;X" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;Y&space;=&space;W_0&space;&plus;&space;W_1\cdot&space;X" title="Y = W_0 + W_1\cdot X" /></a>
 
 &ensp;Tuy nhiên trong các bài toán thực tế, các đặc trưng trong bộ dữ liệu có thể tăng lên đến cả hàng chục thuộc tính. Do đó, W1 có thể được hiểu là một vectơ tham số như sau: W1 = [W1,W2,..Wn]. Tương tự cho vectơ đặc trưng X.
-
+--
 However, in real-life problems, features in the dataset could be scaled up to more than 30. So, W1 could be presented by a parameters vector, like: W1 = [W1,W2,..Wn], same for features vector X.
 
 Mô hình có thể biểu diễn lại như sau:  
