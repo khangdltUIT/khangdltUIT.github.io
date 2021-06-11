@@ -58,7 +58,9 @@ The technique of adding one feature whose value is one and concatenate bias b to
 
 ### Xây dựng hàm mất mát và tối ưu - Build a Loss Function and optimize.
 #### *Loss Function*
+
 &ensp;Điều ta mong muốn khi xây dựng mô hình là kết quả dự đoán sẽ có sai lệch nhỏ nhất so với grouth-truth. Hàm mất mát được xây dựng nhằm đánh giá sai số đó. Hàm mất mát được xây dựng như sau:  
+
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;L_w&space;=&space;\frac{1}{2N}\sum_{i=1}^{N}(y-\hat{y})^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;L_w&space;=&space;\frac{1}{2N}\sum_{i=1}^{N}(y-\hat{y})^2" title="L_w = \frac{1}{2N}\sum_{i=1}^{N}(y-\hat{y})^2" /></a>
 
 Hàm loss này được gọi là *mean squared error* (MSE). Trong đó:
@@ -68,7 +70,7 @@ Hàm loss này được gọi là *mean squared error* (MSE). Trong đó:
 
 --
 
-&ensp; When build a linear regression model, the goal that we want is minimizing the difference between grouth-truth and predicted output. So, a loss function is build for measuring it. Formulation:  
+&ensp; When building a linear regression model, the goal that we want is to minimize the difference between grouth-truth and predicted output. So, a loss function is built for measuring it. Formulation:  
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;L_w&space;=&space;\frac{1}{2N}\sum_{i=1}^{N}(y-\hat{y})^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;L_w&space;=&space;\frac{1}{2N}\sum_{i=1}^{N}(y-\hat{y})^2" title="L_w = \frac{1}{2N}\sum_{i=1}^{N}(y-\hat{y})^2" /></a>
 
 This loss is called *mean squared error (MSE)*. Which:
@@ -77,3 +79,18 @@ This loss is called *mean squared error (MSE)*. Which:
 * \hat{y}: predicted output
 
 #### *Optimization*
+
+&ensp; Bài toán tối ưu hóa ở đây là tối ưu hàm mất mát. Mục đích của tối ưu hàm mất mát là điều chỉnh các tham số trong vector tham số để giá trị dự đoán sai lệch ít nhất so với grouth-truth. Thông thường, Gradient Descent được sử dụng để điều chỉnh tham số.
+
+---
+
+The optimize problem is minimizing the value of the loss function. The goal of that is fitting parameters in the parameter vector to have the smallest difference between predicted output and griuth-truth. In general, Gradient Descent is used to fitting parameters.
+
+### Cài đặt mô hình Linear Regression
+#### Cài đặt từ đầu
+
+* Dataset
+
+```python
+
+```
