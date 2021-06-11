@@ -57,3 +57,23 @@ This relation is called affine.
 The technique of adding one feature whose value is one and concatenate bias b to parameters vector w is called the bias trick.
 
 ### Xây dựng hàm mất mát và tối ưu - Build a Loss Function and optimize.
+#### *Loss Function*
+&ensp;Điều ta mong muốn khi xây dựng mô hình là kết quả dự đoán sẽ có sai lệch nhỏ nhất so với grouth-truth. Hàm mất mát được xây dựng nhằm đánh giá sai số đó. Hàm mất mát được xây dựng như sau:  
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;L_w&space;=&space;\frac{1}{2N}\sum_{i=1}^{N}(y-\hat{y})^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;L_w&space;=&space;\frac{1}{2N}\sum_{i=1}^{N}(y-\hat{y})^2" title="L_w = \frac{1}{2N}\sum_{i=1}^{N}(y-\hat{y})^2" /></a>
+
+Hàm loss này được gọi là *mean squared error* (MSE). Trong đó:
+* N: tổng số điểm dữ liệu
+* y: grouth-truth
+* \hat{y}: kết quả dự đoán.
+
+--
+
+&ensp; When build a linear regression model, the goal that we want is minimizing the difference between grouth-truth and predicted output. So, a loss function is build for measuring it. Formulation:  
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;L_w&space;=&space;\frac{1}{2N}\sum_{i=1}^{N}(y-\hat{y})^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;L_w&space;=&space;\frac{1}{2N}\sum_{i=1}^{N}(y-\hat{y})^2" title="L_w = \frac{1}{2N}\sum_{i=1}^{N}(y-\hat{y})^2" /></a>
+
+This loss is called *mean squared error (MSE)*. Which:
+* N: total data points
+* y: grouth-truth
+* \hat{y}: predicted output
+
+#### *Optimization*
