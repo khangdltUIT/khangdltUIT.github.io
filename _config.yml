@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: Khang Duong Le Tuong
+name: Tuong-Khang Duong Le
 
 # Short bio or description (displayed in the header)
 description: I am a student at University of Information Technology(HCMVNU), majoring in Computer Science
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/khangdltUIT/khangdltUIT.github.io/master/images/187967284_808377386743716_3534897520923087887_n.jpg
+avatar: https://raw.githubusercontent.com/tuongkhangduongle/tuongkhangduongle.github.io/master/images/avt_back.jpg
 
 #
 # Flags below are optional
@@ -23,7 +23,7 @@ footer-links:
   flickr:
   github: khangdltUIT
   instagram: khangduonglt_/
-  linkedin:
+  linkedin: iam_tkhang
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: 
