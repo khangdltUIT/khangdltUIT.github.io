@@ -18,7 +18,8 @@ Gần đây, số bài báo nghiên cứu trong lĩnh vực xử lý ảnh y sin
 Nowadays, numerous papers in medical images processing increased dramatically shows that it is an interesting area. This improvement is high enough for people to ask a question "Do we need diagnostic doctors ?". One of many problems in this field is the segmentation of medical images, with aiming to detect more accurate tumors over pixels. My project was implemented full steps from image preprocessing, selected segmentation models to image post-processing. Finally, we summary and statistical loss functions to know how they affected the segmentation model.  
 ## 2. Giới thiệu - Introduction  
 
-## 3. Bài toán Segmentation - Segmentation Problem
+
+### Bài toán Segmentation - Segmentation Problem
 
 ## 3. Dữ liệu - Dataset
 
