@@ -4,7 +4,6 @@ tittle: LINEAR REGRESSION IN MACHINE LEARNING
 categories: ML
 ---
 
-![alt](https://raw.githubusercontent.com/khangdltUIT/khangdltUIT.github.io/master/images/Vintage%20Logotype%20Etsy%20Banner.png)
 ## 1. Giới thiệu - Introduction
 &ensp; Hồi quy tuyến tính là mô hình mở đầu cho nhiều khóa học về Machine Learning bởi vì tính đơn giản và dễ hiểu của nó.  
 &ensp; Hồi quy tuyến tính thuộc loại mô hình học tập có giám sát ( *supervised learning*), được sử dụng trong các bài toán về hồi quy.
@@ -87,10 +86,35 @@ This loss is called *mean squared error (MSE)*. Which:
 The optimize problem is minimizing the value of the loss function. The goal of that is fitting parameters in the parameter vector to have the smallest difference between predicted output and griuth-truth. In general, Gradient Descent is used to fitting parameters.
 
 ### Cài đặt mô hình Linear Regression
-#### Cài đặt từ đầu
+#### Không sử dụng thư viện - from scratch
 
-* Dataset
+* Dataset  
+Dữ liệu được định nghĩa như sau:  
+    * X: chiều cao (cm)  
+    * y: cân nặng (kg)
 
 ```python
+# height (cm)
+X = np.array([[147, 150, 153, 158, 163, 165, 168, 170, 173, 175, 178, 180, 183]]).T # each row is a point 
+# weight (kg)
+y = np.array([ 49, 50, 51,  54, 58, 59, 60, 62, 63, 64, 66, 67, 68])
+```
+* Cài đặt hàm Linear Regression:
 
+```python
+def linear_regression(X, y, x0)
+    one = np.ones((X.shape[0], 1))
+    Xbar = np.concatenate((one, X), axis = 1) # each point is one row 
+    # Calculating weights of the fitting line 
+    A = np.dot(Xbar.T, Xbar)
+    b = np.dot(Xbar.T, y)
+    w = np.dot(np.linalg.pinv(A), b)
+    # weights
+    w_0 = w[0]
+    w_1 = w[1]
+
+    x0 = np.linspace(145, 185, 2,endpoint=True)
+    y0 = w_0 + w_1*x0
+
+    return y0
 ```
