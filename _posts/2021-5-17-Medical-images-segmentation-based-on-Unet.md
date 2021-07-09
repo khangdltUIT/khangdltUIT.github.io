@@ -6,7 +6,12 @@ categories: CV
 
 Bài viết trình bày chi tiết và giải thích về các phương pháp đã áp dụng để xử lí bài toán "Brain Tumor Segmentation". 
 
+------------------------------
+
+The blog describes details and explains about methods implemented to solve the problem " Brain Tumor Segmentation".
+
 ## 1. Tổng quan - Abstract  
+
 
 ## 2. Giới thiệu - Introduction  
 
