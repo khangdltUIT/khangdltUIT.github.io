@@ -2,6 +2,7 @@
 layout: post
 tittle: Feature Selection
 categories: ML
+comments: true
 ---
 
 ![alt](https://raw.githubusercontent.com/khangdltUIT/khangdltUIT.github.io/master/images/genetic%20algo%20ffeatureselection%20-%20tittle.png)
@@ -78,7 +79,6 @@ Progress has 3 parts:
 * Selection
 * Crossover
 * Mutation
-## 4. Cài đặt với thư viện sklearn-genetic
 
 
 
