@@ -2,6 +2,7 @@
 layout: post
 tittle: Theory for MAP and sample essays.
 categories: IELTS
+comments: true
 ---
 
 ### ***1. The maps below show the changes experienced by the town of Lakeside at the beginning of the 21th century***
