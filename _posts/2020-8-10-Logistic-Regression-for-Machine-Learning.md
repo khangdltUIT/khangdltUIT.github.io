@@ -58,3 +58,18 @@ Ta thấy hàm số có đạo hàm tại mọi điểm trên đồ thị, thu�
 -------
 
 From this graph, we see that the function has deriviates at every point in the graph, which is convinient for optimizing the loss function. 
+
+### 2.2 Xây dựng hàm mất mát - Loss function
+
+Giả sử xác suất của điểm dữ liệu x thuộc vào lớp thứ nhất là f(x) thì xác suất của trường hợp còn lại là 1-f(x). Khi đó, ta có thể xây dựng hàm mất mát cho bài toán dựa trên hàm cross-entropy như sau:
+----
+
+The assumption that the probability of data point x belonging to class 1 is f(x), the other point is 1 - f(x). Therefor, we could build a loss function for the problem based on cross-entropy function:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{150}&space;\fn_cm&space;\LARGE&space;L(\theta&space;)=-\sum_{i=1}^m&space;(y^i&space;logP_i&plus;&space;(1-y^i)log(1-P_i))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;\fn_cm&space;\LARGE&space;L(\theta&space;)=-\sum_{i=1}^m&space;(y^i&space;logP_i&plus;&space;(1-y^i)log(1-P_i))" title="\LARGE L(\theta )=-\sum_{i=1}^m (y^i logP_i+ (1-y^i)log(1-P_i))" /></a>
+
+Theta được tính bằng cách lấy vector tham số W nhân với vector đặc trưng X. Mục tiêu là đi tìm giá trị theta sao cho hàm loss đạt cực tiểu, tức là tìm giá trị của các tham số thuộc W sao cho theta đạt cực tiểu. 
+
+----
+
+Theta could be computed by multiplying parameters vector W with features vector X. The goal is finding the minimum value of the loss function, meaning that finding the values of each parameter in vector W such that the function is minimized
