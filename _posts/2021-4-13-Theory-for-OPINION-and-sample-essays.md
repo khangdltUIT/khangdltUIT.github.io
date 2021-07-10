@@ -39,7 +39,7 @@ While I accept that ..., downsides of ... cannot be overlooked.
 
 # 4. Sample topics:
 
-***1. Financial should be a mandatory component of the school program. To what extend do you agree or disagree with this statement?***
+### ***1. Financial should be a mandatory component of the school program. To what extend do you agree or disagree with this statement?***
 
 There are various perspecties on the question of whether or not financial should be taught in the school. I concure with the idea that adding this subject in curriculum is beneficial due to following reasons.  
 
@@ -49,7 +49,7 @@ Besides, young learners understanding finance tend to treasure labor and propert
 
 In conlusion, it is advisable to make financial eduction an obligatory component of the school program. This preparation is a cornerstone for students'future achievements. 
 
-***2. Nowadays university education is very expensive. Some people say that universities should reduce their fees, especially for the less fortunate students or those coming from rural areas. To what extent do you agree or disagree with this statement?***
+### ***2. Nowadays university education is very expensive. Some people say that universities should reduce their fees, especially for the less fortunate students or those coming from rural areas. To what extent do you agree or disagree with this statement?***
 
 The idea that universities should decrease their fees for students who come from rural areas or have less fortunate has become a source of controversy. While I accepted that the universities should reduce their fees, the downsides of this statement can not be overlooked.
 
