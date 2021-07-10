@@ -17,7 +17,7 @@ A model introduced commonly adjacent to Linear Regression is Logistic Regression
 ### 2.1 Biểu diễn toán học
 **Công thức:**
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;f(x)&space;=&space;\frac{1}{1&space;&plus;&space;e^{-x}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;f(x)&space;=&space;\frac{1}{1&space;&plus;&space;e^{-x}}" title="f(x) = \frac{1}{1 + e^{-x}}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{150}&space;\fn_cm&space;\LARGE&space;f(x)&space;=&space;\frac{1}{1&plus;e^(-x)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;\fn_cm&space;\LARGE&space;f(x)&space;=&space;\frac{1}{1&plus;e^(-x)}" title="\LARGE f(x) = \frac{1}{1+e^(-x)}" /></a>
 
 Trong đó:
 * e: epsilon = 1e-7
@@ -47,7 +47,7 @@ Trong đó:
 
 **Đạo hàm:**
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;f'(x)&space;=&space;\frac{e^{-x}}{(1&plus;e^{-x})^2}&space;=&space;\frac{1}{1&plus;e^{-x}}\cdot&space;\frac{e^{-x}}{1&plus;e^{-x}}&space;=f(x)(1-f(x))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;f'(x)&space;=&space;\frac{e^{-x}}{(1&plus;e^{-x})^2}&space;=&space;\frac{1}{1&plus;e^{-x}}\cdot&space;\frac{e^{-x}}{1&plus;e^{-x}}&space;=f(x)(1-f(x))" title="f'(x) = \frac{e^{-x}}{(1+e^{-x})^2} = \frac{1}{1+e^{-x}}\cdot \frac{e^{-x}}{1+e^{-x}} =f(x)(1-f(x))" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{150}&space;\fn_phv&space;\large&space;f'(x)&space;=&space;\frac{e^{-x}}{(1&plus;e^{-x})^2}&space;=&space;\frac{1}{1&plus;e^{-x}}\cdot&space;\frac{e^{-x}}{1&plus;e^{-x}}&space;=f(x)(1-f(x))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;\fn_phv&space;\large&space;f'(x)&space;=&space;\frac{e^{-x}}{(1&plus;e^{-x})^2}&space;=&space;\frac{1}{1&plus;e^{-x}}\cdot&space;\frac{e^{-x}}{1&plus;e^{-x}}&space;=f(x)(1-f(x))" title="\large f'(x) = \frac{e^{-x}}{(1+e^{-x})^2} = \frac{1}{1+e^{-x}}\cdot \frac{e^{-x}}{1+e^{-x}} =f(x)(1-f(x))" /></a>
 
 **Đồ thị minh hoạ**
 
