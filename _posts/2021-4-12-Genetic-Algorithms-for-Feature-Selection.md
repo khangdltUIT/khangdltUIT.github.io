@@ -5,8 +5,6 @@ categories: ML
 comments: true
 ---
 
-![alt](https://raw.githubusercontent.com/khangdltUIT/khangdltUIT.github.io/master/images/genetic%20algo%20ffeatureselection%20-%20tittle.png)
-
 ## 1.Mục đích của Feature Selection
 Mục đích của việc áp dụng các kỹ thuật feature selection nhằm tìm ra tập các đặc trưng để xây dựng một mô hình hiệu quả.
 The goal of using feature selection is to find the best set of features that build a useful model.
