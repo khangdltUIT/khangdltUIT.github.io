@@ -17,7 +17,9 @@ A model introduced commonly adjacent to Linear Regression is Logistic Regression
 ### ***2.1 Biểu diễn toán học***
 **Công thức:**
 
+<br/><br/>
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{150}&space;\fn_cm&space;\LARGE&space;f(x)&space;=&space;\frac{1}{1&plus;e^(-x)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;\fn_cm&space;\LARGE&space;f(x)&space;=&space;\frac{1}{1&plus;e^(-x)}" title="\LARGE f(x) = \frac{1}{1+e^(-x)}" /></a>
+<br/><br/>
 
 Trong đó:
 * e: epsilon = 1e-7
@@ -67,7 +69,9 @@ Giả sử xác suất của điểm dữ liệu x thuộc vào lớp thứ nh�
 
 The assumption that the probability of data point x belonging to class 1 is f(x), the other point is 1 - f(x). Therefor, we could build a loss function for the problem based on cross-entropy function:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{150}&space;\fn_cm&space;\LARGE&space;L(\theta&space;)=-\sum_{i=1}^m&space;(y^i&space;logP_i&plus;&space;(1-y^i)log(1-P_i))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;\fn_cm&space;\LARGE&space;L(\theta&space;)=-\sum_{i=1}^m&space;(y^i&space;logP_i&plus;&space;(1-y^i)log(1-P_i))" title="\LARGE L(\theta )=-\sum_{i=1}^m (y^i logP_i+ (1-y^i)log(1-P_i))" /></a>
+<br/><br/>
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{150}&space;L(\theta&space;)=\sum_{i=1}^m&space;(y^i&space;logP_i&plus;&space;(1-y^i)log(1-P_i))" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;L(\theta&space;)=\sum_{i=1}^m&space;(y^i&space;logP_i&plus;&space;(1-y^i)log(1-P_i))" title="L(\theta )=\sum_{i=1}^m (y^i logP_i+ (1-y^i)log(1-P_i))" /></a>
+<br/><br/>
 
 Theta được tính bằng cách lấy vector tham số W nhân với vector đặc trưng X. Mục tiêu là đi tìm giá trị theta sao cho hàm loss đạt cực tiểu, tức là tìm giá trị của các tham số thuộc W sao cho theta đạt cực tiểu. 
 
