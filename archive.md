@@ -23,6 +23,9 @@ Here is some of my writting by topics.
 * Convolutional Neural Network(deeplearning.ai)  
   
 ### **IELTS**
-* Writing:
+* Writing Task 1:
     * [Map](https://tuongkhangduongle.github.io/Theory-for-MAP-and-sample-essays/): theory for map and sample essays. 
     * Process
+
+* Writing Task 2:
+    * [Opinion essay](https://tuongkhangduongle.github.io/Theory-for-OPINION-and-sample-essays/): theory for opnion essays.
