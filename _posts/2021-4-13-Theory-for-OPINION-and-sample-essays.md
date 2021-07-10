@@ -38,6 +38,7 @@ Paraphase the question + state your opinion
 While I accept that ..., downsides of ... cannot be overlooked.
 
 # 4. Sample topics:
+
 1. Financial should be a mandatory component of the school program. To what extend do you *agree or disagree* with this statement?
 
 There are various perspecties on the question of whether or not financial should be taught in the school. I concure with the idea that adding this subject in curriculum is beneficial due to following reasons.  
