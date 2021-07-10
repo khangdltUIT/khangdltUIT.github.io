@@ -4,7 +4,7 @@ tittle: LOGISTIC REGRESSION FOR MACHINE LEARNING
 categories: ML
 ---
 
-## 1. Giới thiệu - Introduction  
+## **1. Giới thiệu - Introduction**
 
 Mô hình thường được giới thiệu sau Linear Regression là Logistic Regression. Khác với Linear Regression, mô hình này thường được áp dụng vào bài toán phân loại. 
 
@@ -12,9 +12,9 @@ Mô hình thường được giới thiệu sau Linear Regression là Logistic R
 
 A model introduced commonly adjacent to Linear Regression is Logistic Regression. Other than Linear Regression, this model is used in the classification.
 
-## 2. Mô hình Logistic Regression - Logistic Regression Model
+## **2. Mô hình Logistic Regression - Logistic Regression Model**
 
-### 2.1 Biểu diễn toán học
+### ***2.1 Biểu diễn toán học***
 **Công thức:**
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\dpi{150}&space;\fn_cm&space;\LARGE&space;f(x)&space;=&space;\frac{1}{1&plus;e^(-x)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\dpi{150}&space;\fn_cm&space;\LARGE&space;f(x)&space;=&space;\frac{1}{1&plus;e^(-x)}" title="\LARGE f(x) = \frac{1}{1+e^(-x)}" /></a>
@@ -59,9 +59,10 @@ Ta thấy hàm số có đạo hàm tại mọi điểm trên đồ thị, thu�
 
 From this graph, we see that the function has deriviates at every point in the graph, which is convinient for optimizing the loss function. 
 
-### 2.2 Xây dựng hàm mất mát - Loss function
+### ***2.2 Xây dựng hàm mất mát - Loss function***
 
 Giả sử xác suất của điểm dữ liệu x thuộc vào lớp thứ nhất là f(x) thì xác suất của trường hợp còn lại là 1-f(x). Khi đó, ta có thể xây dựng hàm mất mát cho bài toán dựa trên hàm cross-entropy như sau:
+
 ----
 
 The assumption that the probability of data point x belonging to class 1 is f(x), the other point is 1 - f(x). Therefor, we could build a loss function for the problem based on cross-entropy function:
