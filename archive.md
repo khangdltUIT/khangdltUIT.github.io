@@ -29,9 +29,13 @@ Here is some of my writting by topics.
 
 Read more at <a href="{{ site.baseurl }}/ielts/">here</a>
 
-* Writing Task 1:
-    * [Map](https://tuongkhangduongle.github.io/Theory-for-MAP-and-sample-essays/): theory for map and sample essays. 
-    * Process
+* Speaking
+    * [Media and Culture](https://tuongkhangduongle.github.io/Media-and-Culture-Topics/)
 
-* Writing Task 2:
-    * [Opinion essay](https://tuongkhangduongle.github.io/Theory-for-OPINION-and-sample-essays/): theory for opnion essays.
+* Writing:
+    * Writing Task 1:
+        * [Map](https://tuongkhangduongle.github.io/Theory-for-MAP-and-sample-essays/): theory for map and sample essays. 
+        * Process
+
+    * Writing Task 2:
+        * [Opinion essay](https://tuongkhangduongle.github.io/Theory-for-OPINION-and-sample-essays/): theory for opnion essays.
