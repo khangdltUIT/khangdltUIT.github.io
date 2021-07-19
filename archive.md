@@ -19,6 +19,9 @@ Here is some of my writting by topics.
 ### **Computer Vision**  
 * [Medical images segmentation based on Unet](https://tuongkhangduongle.github.io/Medical-images-segmentation-based-on-Unet/): recap of Unet, loss functions and implementation.
   
+### **Computer Vision in Medical Tasks**
+* [Evaluating models in medical tasks](): recap of how to evaluate deep neural networks when applying in medical tasks. 
+
 ### **Recap Courses**  
 * Convolutional Neural Network(deeplearning.ai)  
   
