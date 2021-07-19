@@ -4,7 +4,7 @@ permalink: /tiengviet/
 ---
 
 <div class="posts">
-  {% for post in site.viet %}
+  {% for post in site.viet.posts %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
