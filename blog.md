@@ -4,7 +4,7 @@ permalink: /blog/
 ---
 
 <div class="posts">
-  {% for post in site.eng %}
+  {% for post in site.eng.posts %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
