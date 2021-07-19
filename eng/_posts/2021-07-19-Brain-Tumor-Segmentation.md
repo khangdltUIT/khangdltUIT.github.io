@@ -19,13 +19,16 @@ A new direction in cancer research, called radiogenomics, is aimed at finding re
 
 So, a system of automatic predicting a tumor in medical images could save time, cost, and doctors. 
 
-## **2. Dataset**
-![alt](https://raw.githubusercontent.com/tuongkhangduongle/tuongkhangduongle.github.io/master/images/brain_tumor/dataset.png)  
+## **2. Dataset** 
+
+<img src='https://raw.githubusercontent.com/tuongkhangduongle/tuongkhangduongle.github.io/master/images/brain_tumor/dataset.png' style="float:center" >
 
 We used the dataset from a paper "Association of genomic subtypes of lower-grade gliomas with shape features automatically extracted by a deep learning algorithm.". The Dataset is confirmed by doctors at Duke University.
 
 The total samples of the dataset are 3929, but 1373 is the number of samples labeled. So, we could see the high imbalance, a popular problem in medical datasets. However, this is the segmentation task, we just need masks labeled. Therefore, we selected 1373 samples labeled and split into 3 sets which are: train - validation and test with the rate are: 0.7 - 0.15 - 0.15.
-![alt](https://raw.githubusercontent.com/tuongkhangduongle/tuongkhangduongle.github.io/master/images/brain_tumor/data_distribute.png)
+
+<img src='https://raw.githubusercontent.com/tuongkhangduongle/tuongkhangduongle.github.io/master/images/brain_tumor/data_distribute.png' alt="The Dataset Distribution"  style = "float:center; width:268px; height: 175px">
+
 ## **3. Preprocessing**
 We combined 2 methods that are skull-stripping and image processing.
 
