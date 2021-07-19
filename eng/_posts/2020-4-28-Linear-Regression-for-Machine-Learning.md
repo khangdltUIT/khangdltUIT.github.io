@@ -77,3 +77,7 @@ def linear_regression(X, y, x0)
 
     return y0
 ```
+
+-----
+
+Read this post in Vietnamese at <a href="{{ site.baseurl }}/Hồi-quy-tuyến-tính-trong-học-máy/">here</a>
