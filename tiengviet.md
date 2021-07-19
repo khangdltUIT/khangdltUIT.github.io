@@ -3,7 +3,7 @@ layout: page
 permalink: /tiengviet/
 ---
 
-<div class="vietposts">
+<div class="posts">
   {% for post in site.vietposts %}
     <article class="post">
 
