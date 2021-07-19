@@ -8,13 +8,11 @@ categories: CV
 
 ### 1.1 Evaluation Metrics
 
-Cách đánh giá phổ biến của mô hình là áp dụng độ đo accuracy với cách tính như sau
-
-ACCURACY = (số mẫu dự đoán đúng)/ (tổng số mẫu)
-
-----
-
 The popular metrics for measure the performance of a model is the accuracy metric which its formula is: 
 
 ACCURACY = (NUMBERS OF CORRECTLY SAMPLES)/ (TOTAL SAMPLES)
+
+----
+
+Read this post in Vietnamese at <a href="{{ site.baseurl }}/Đánh-giá-mô-hình-trong-bài-toán-y-sinh/">here</a>
 
