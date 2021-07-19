@@ -21,7 +21,7 @@ So, a system of automatic predicting a tumor in medical images could save time, 
 
 ## **2. Dataset** 
 
-<img src='https://raw.githubusercontent.com/tuongkhangduongle/tuongkhangduongle.github.io/master/images/brain_tumor/dataset.png' style="float:center" >
+<img src='https://raw.githubusercontent.com/tuongkhangduongle/tuongkhangduongle.github.io/master/images/brain_tumor/dataset.png' style="float: center; max-width: 80%; margin: 0 0 0em 0em">
 
 We used the dataset from a paper "Association of genomic subtypes of lower-grade gliomas with shape features automatically extracted by a deep learning algorithm.". The Dataset is confirmed by doctors at Duke University.
 
