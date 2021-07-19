@@ -54,3 +54,7 @@ The assumption that the probability of data point x belonging to class 1 is f(x)
 <br/><br/>
 
 Theta could be computed by multiplying parameters vector W with features vector X. The goal is finding the minimum value of the loss function, meaning that finding the values of each parameter in vector W such that the function is minimized
+
+-----
+
+Read this post in Vietnamese at <a href="{{ site.baseurl }}/Hồi-quy-Logistic-trong-Học-máy/">here</a>
